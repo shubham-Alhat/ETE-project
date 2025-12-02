@@ -43,7 +43,7 @@ export const units: Unit[] = [
       },
       {
         id: 3,
-        question: "The CISCstandsfor                      .",
+        question: "The CISC stands for:",
         options: [
           {
             id: "a",
@@ -69,7 +69,7 @@ export const units: Unit[] = [
       },
       {
         id: 4,
-        question: "The GIPOstandsfor                                .",
+        question: "The GPIO stands for:",
         options: [
           {
             id: "a",
@@ -91,7 +91,7 @@ export const units: Unit[] = [
       },
       {
         id: 5,
-        question: "The IDE standsfor_               .",
+        question: "The IDE stands for:",
         options: [
           { id: "a", text: "In DeepEnvironment", isCorrect: false },
           {
@@ -105,8 +105,7 @@ export const units: Unit[] = [
       },
       {
         id: 6,
-        question:
-          "A program written with the IDE for Arduinoiscalled                      .",
+        question: "A program written with the IDE for Arduino is called",
         options: [
           { id: "a", text: "IDEsource", isCorrect: false },
           { id: "b", text: "Sketch", isCorrect: true },
@@ -156,8 +155,7 @@ export const units: Unit[] = [
       },
       {
         id: 11,
-        question:
-          "The function of link register inARM7TDMIis                   .",
+        question: "The function of link register in ARM7TDMI is",
         options: [
           {
             id: "a",
@@ -177,7 +175,7 @@ export const units: Unit[] = [
         id: 12,
         question: "The function of r15 in ARM7TDMI",
         options: [
-          { id: "a", text: "ProgramCounter", isCorrect: true },
+          { id: "a", text: "Program Counter", isCorrect: true },
           { id: "b", text: "CPSR", isCorrect: false },
           { id: "c", text: "SPSR", isCorrect: false },
           { id: "d", text: "ALU", isCorrect: false },
@@ -189,7 +187,7 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Debug and Fast Multiplier units arepresent",
+            text: "Debug and Fast Multiplier units are present",
             isCorrect: true,
           },
           {
@@ -277,16 +275,16 @@ export const units: Unit[] = [
         id: 20,
         question: "The throughput of a super scalar processor is",
         options: [
-          { id: "a", text: "Less than1", isCorrect: false },
+          { id: "a", text: "Less than 1", isCorrect: false },
           { id: "b", text: "1", isCorrect: false },
-          { id: "c", text: "More than1", isCorrect: true },
+          { id: "c", text: "More than 1", isCorrect: true },
           { id: "d", text: "Not Known", isCorrect: false },
         ],
       },
       {
         id: 21,
         question:
-          "Each stage in pipelining should becompletedwithin            cycle.",
+          "Each stage in pipelining should be completed within _______ cycle.",
         options: [
           { id: "a", text: "1", isCorrect: true },
           { id: "b", text: "2", isCorrect: false },
@@ -297,11 +295,11 @@ export const units: Unit[] = [
       {
         id: 22,
         question:
-          "The main importance of ARM micro-processors is providing operationwith       ",
+          "The main importance of ARM micro-processors is providing operation with       ",
         options: [
           {
             id: "a",
-            text: "Low cost and low powerconsumption",
+            text: "Low cost and low power consumption",
             isCorrect: true,
           },
           { id: "b", text: "Higher degree ofmulti-tasking", isCorrect: false },
@@ -314,10 +312,10 @@ export const units: Unit[] = [
         question:
           "In ARM processor when Interrupt occurs ARM processor goes into following mode:",
         options: [
-          { id: "a", text: "FIQmode", isCorrect: false },
-          { id: "b", text: "Abortmode", isCorrect: false },
-          { id: "c", text: "Supervisormode", isCorrect: true },
-          { id: "d", text: "Undefinedmode", isCorrect: false },
+          { id: "a", text: "FIQ mode", isCorrect: true },
+          { id: "b", text: "Abort mode", isCorrect: false },
+          { id: "c", text: "Supervisor mode", isCorrect: false },
+          { id: "d", text: "Undefined mode", isCorrect: false },
         ],
       },
       {
@@ -326,20 +324,20 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Shift operation in same instructioncycle",
+            text: "Shift operation in same instruction cycle",
             isCorrect: true,
           },
           {
             id: "b",
-            text: "Shift operation in 2 instructioncycle",
+            text: "Shift operation in 2 instruction cycle",
             isCorrect: false,
           },
           {
             id: "c",
-            text: "Shift operation in 4 instructioncycle",
+            text: "Shift operation in 4 instruction cycle",
             isCorrect: false,
           },
-          { id: "d", text: "None of theabove", isCorrect: false },
+          { id: "d", text: "None of the above", isCorrect: false },
         ],
       },
       {
@@ -347,10 +345,10 @@ export const units: Unit[] = [
         question:
           "Evaluate the following statements 1. R13 is traditionally used as the stack pointer and stores the head of the stack in thecurrent processormode 2. R14 is the link register where the core puts the return address on executing asubroutine 3. R15 is the program counter and contains the address of the next instruction to befetched",
         options: [
-          { id: "a", text: "All the options aretrue", isCorrect: true },
-          { id: "b", text: "1 and 2 aretrue", isCorrect: false },
-          { id: "c", text: "2 and 3 aretrue", isCorrect: false },
-          { id: "d", text: "1 and 3 aretrue", isCorrect: false },
+          { id: "a", text: "All the options are true", isCorrect: true },
+          { id: "b", text: "1 and 2 are true", isCorrect: false },
+          { id: "c", text: "2 and 3 are true", isCorrect: false },
+          { id: "d", text: "1 and 3 are true", isCorrect: false },
         ],
       },
       {
@@ -370,9 +368,9 @@ export const units: Unit[] = [
           "It starts with a/* and continues until a*/ what does this do?",
         options: [
           { id: "a", text: "Loads a sketch", isCorrect: false },
-          { id: "b", text: "Makecomments", isCorrect: true },
-          { id: "c", text: "Compilesquicker", isCorrect: false },
-          { id: "d", text: "Makes starsappear", isCorrect: false },
+          { id: "b", text: "Make comments", isCorrect: true },
+          { id: "c", text: "Compiles quicker", isCorrect: false },
+          { id: "d", text: "Makes stars appear", isCorrect: false },
         ],
       },
       {
@@ -388,9 +386,9 @@ export const units: Unit[] = [
       },
       {
         id: 29,
-        question: "Default bootloader for the Arduino UNOis            ",
+        question: "Default bootloader for the Arduino UNO is",
         options: [
-          { id: "a", text: "Optibootloader", isCorrect: true },
+          { id: "a", text: "Optiboot loader", isCorrect: true },
           { id: "b", text: "AIR-boot", isCorrect: false },
           { id: "c", text: "Barebox", isCorrect: false },
           { id: "d", text: "GAG", isCorrect: false },
@@ -400,7 +398,7 @@ export const units: Unit[] = [
         id: 30,
         question: "Select proper microcontroller used in Arduino UNO",
         options: [
-          { id: "a", text: "ATmega328p", isCorrect: true },
+          { id: "a", text: "ATmega328P", isCorrect: true },
           { id: "b", text: "ATmega2560", isCorrect: false },
           { id: "c", text: "ATmega32114", isCorrect: false },
           { id: "d", text: "AT91SAM3x8E", isCorrect: false },
@@ -410,8 +408,8 @@ export const units: Unit[] = [
         id: 31,
         question: "ATmega64x device has flash memory of --------",
         options: [
-          { id: "a", text: "64Kb", isCorrect: true },
-          { id: "b", text: "32Kb", isCorrect: false },
+          { id: "a", text: "64KB", isCorrect: true },
+          { id: "b", text: "32KB", isCorrect: false },
           { id: "c", text: "8KB", isCorrect: false },
           { id: "d", text: "128KB", isCorrect: false },
         ],
@@ -449,25 +447,24 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Statement 1 is true and statement 2 isfalse",
+            text: "Statement 1 is true and statement 2 is false",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "Statement 2 is true an statement 1 isfalse",
+            text: "Statement 2 is true an statement 1 is false",
             isCorrect: false,
           },
-          { id: "c", text: "Both statements aretrue", isCorrect: true },
-          { id: "d", text: "Both statements arefalse", isCorrect: false },
+          { id: "c", text: "Both statements are true", isCorrect: true },
+          { id: "d", text: "Both statements are false", isCorrect: false },
         ],
       },
       {
         id: 32,
-        question:
-          "In Li-ionbatteries,the                    is/are lithium ionbased",
+        question: "In Li-ionbatteries, the ________ is/are lithium ion based",
         options: [
-          { id: "a", text: "Positiveelectrode", isCorrect: true },
-          { id: "b", text: "Negativeelectrode", isCorrect: false },
+          { id: "a", text: "Positive electrode", isCorrect: true },
+          { id: "b", text: "Negative electrode", isCorrect: false },
           {
             id: "c",
             text: "Positive and negative electrode",
@@ -479,14 +476,18 @@ export const units: Unit[] = [
       {
         id: 33,
         question:
-          "A nuclear battery is a device which uses energyfrom the            to generate electricity",
+          "A nuclear battery is a device which uses energy from the ________ to generate electricity",
         options: [
           { id: "a", text: "Hydrocarbon", isCorrect: false },
           { id: "b", text: "Hydrogen", isCorrect: false },
-          { id: "c", text: "Emission of radioactiveisotopes", isCorrect: true },
+          {
+            id: "c",
+            text: "Emission of radioactive isotopes",
+            isCorrect: true,
+          },
           {
             id: "d",
-            text: "Chain reaction of radioactiveelements",
+            text: "Chain reaction of radioactive elements",
             isCorrect: false,
           },
         ],
@@ -494,54 +495,54 @@ export const units: Unit[] = [
       {
         id: 34,
         question:
-          "Compare to other batteries, nuclear batteriesarevery                     ,but have extremely               and high energydensity",
+          "Compare to other batteries, nuclear batteries are very ________ , but have extremely _________ and high energy density",
         options: [
-          { id: "a", text: "Cheap, longlife", isCorrect: false },
-          { id: "b", text: "Costly, longlife", isCorrect: true },
-          { id: "c", text: "Cheap, shortlife", isCorrect: false },
-          { id: "d", text: "Costly, shortlife", isCorrect: false },
+          { id: "a", text: "Cheap, long life", isCorrect: false },
+          { id: "b", text: "Costly, long life", isCorrect: true },
+          { id: "c", text: "Cheap, short life", isCorrect: false },
+          { id: "d", text: "Costly, short life", isCorrect: false },
         ],
       },
       {
         id: 35,
         question:
-          "Surface Mount Technology(SMT) is a methodforproduction          in which the components are mounted or placed directly on the surfaceof                  ",
+          "Surface Mount Technology(SMT) is a method for production in which the components are mounted or placed directly on the surface of",
         options: [
           {
             id: "a",
-            text: "Electric circuit, electricboard",
+            text: "Electric circuit, electric board",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "Electronic circuit, printed circuitboard",
+            text: "Electronic circuit, printed circuit board",
             isCorrect: true,
           },
           {
             id: "c",
-            text: "Pneumatic circuit, pneumaticbench",
+            text: "Pneumatic circuit, pneumatic bench",
             isCorrect: false,
           },
           {
             id: "d",
-            text: "Instrumentation circuit for controlpanel",
+            text: "Instrumentation circuit for control panel",
             isCorrect: false,
           },
         ],
       },
       {
         id: 36,
-        question: "OLED standsfor                       ",
+        question: "OLED stands for",
         options: [
-          { id: "a", text: "Organic light emittingdisplay", isCorrect: false },
-          { id: "b", text: "Optical light emittingdisplay", isCorrect: false },
-          { id: "c", text: "Organic light emittingdiode", isCorrect: true },
-          { id: "d", text: "Optical light emittingdiode", isCorrect: false },
+          { id: "a", text: "Organic light emitting display", isCorrect: false },
+          { id: "b", text: "Optical light emitting display", isCorrect: false },
+          { id: "c", text: "Organic light emitting diode", isCorrect: true },
+          { id: "d", text: "Optical light emitting diode", isCorrect: false },
         ],
       },
       {
         id: 37,
-        question: "In OLED at least one of the electrodeis                    ",
+        question: "In OLED at least one of the electrode is",
         options: [
           { id: "a", text: "Reactive", isCorrect: false },
           { id: "b", text: "Transparent", isCorrect: true },
@@ -552,36 +553,36 @@ export const units: Unit[] = [
       {
         id: 38,
         question:
-          "OLED are used to create digital display in devices suchas                       ",
+          "OLED are used to create digital display in devices such as                       ",
         options: [
-          { id: "a", text: "Only TVscreens", isCorrect: false },
-          { id: "b", text: "Onlysmartphones", isCorrect: false },
-          { id: "c", text: "Only computermonitors", isCorrect: false },
-          { id: "d", text: "All ofabove", isCorrect: true },
+          { id: "a", text: "Only TV screens", isCorrect: false },
+          { id: "b", text: "Only smartphones", isCorrect: false },
+          { id: "c", text: "Only computer & monitors", isCorrect: false },
+          { id: "d", text: "All of above", isCorrect: true },
         ],
       },
       {
         id: 39,
         question:
-          "Statement 1: An OLED display works without an backlite Statement 2: Because OLED emits visible light",
+          "Statement 1: An OLED display works without an backlite. Statement 2: Because OLED emits visible light",
         options: [
           {
             id: "a",
-            text: "Statement 1 is true and statement 2 isfalse",
+            text: "Statement 1 is true and statement 2 is false",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "Statement 2 is true an statement 1 isfalse",
+            text: "Statement 2 is true an statement 1 is false",
             isCorrect: false,
           },
-          { id: "c", text: "Both statements aretrue", isCorrect: true },
-          { id: "d", text: "Both statements arefalse", isCorrect: false },
+          { id: "c", text: "Both statements are true", isCorrect: true },
+          { id: "d", text: "Both statements are false", isCorrect: false },
         ],
       },
       {
         id: 40,
-        question: "Memristor is defined byrelation                   ",
+        question: "Memristor is defined by relation                   ",
         options: [
           { id: "a", text: "dⱷ=m*dq", isCorrect: true },
           { id: "b", text: "dp=c*dv", isCorrect: false },
@@ -592,12 +593,12 @@ export const units: Unit[] = [
       {
         id: 41,
         question:
-          "The surface mount components are accurately placed onto the pads with thehelp of                ",
+          "The surface mount components are accurately placed onto the pads with the help of                ",
         options: [
-          { id: "a", text: "Peak and placemachine", isCorrect: true },
+          { id: "a", text: "Peak and place machine", isCorrect: true },
           { id: "b", text: "Manually", isCorrect: false },
-          { id: "c", text: "Reflowmachine", isCorrect: false },
-          { id: "d", text: "Printingmachine", isCorrect: false },
+          { id: "c", text: "Reflow machine", isCorrect: false },
+          { id: "d", text: "Printing machine", isCorrect: false },
         ],
       },
       {
@@ -605,44 +606,48 @@ export const units: Unit[] = [
         question:
           "Desirable features of electronics components suitable of emerging application is",
         options: [
-          { id: "a", text: "High powerconsumption", isCorrect: false },
-          { id: "b", text: "Miniaturesize", isCorrect: true },
-          { id: "c", text: "Lower operationspeed", isCorrect: false },
-          { id: "d", text: "Low operatingfrequency", isCorrect: false },
+          { id: "a", text: "High power consumption", isCorrect: false },
+          { id: "b", text: "Miniature size", isCorrect: true },
+          { id: "c", text: "Lower operation speed", isCorrect: false },
+          { id: "d", text: "Low operating frequency", isCorrect: false },
         ],
       },
       {
         id: 43,
         question:
-          "                    allows more number of components placing on both sides of the flexibledielectric",
+          "_________ allows more number of components placing on both sides of the flexible dielectric",
         options: [
-          { id: "a", text: "Single sided flexiblecircuit", isCorrect: false },
-          { id: "b", text: "Single mounted flexiblecircuit", isCorrect: false },
-          { id: "c", text: "Double excess flexiblecircuit", isCorrect: false },
-          { id: "d", text: "Sculptured flexcircuit", isCorrect: true },
+          { id: "a", text: "Single sided flexible circuit", isCorrect: false },
+          {
+            id: "b",
+            text: "Single mounted flexible circuit",
+            isCorrect: false,
+          },
+          { id: "c", text: "Double excess flexible circuit", isCorrect: false },
+          { id: "d", text: "Sculptured flex circuit", isCorrect: true },
         ],
       },
       {
         id: 44,
         question:
-          "Memristor features uniquepropertieslike           and            ",
+          "Memristor features unique properties like ______ and ________",
         options: [
-          { id: "a", text: "Non-volatile nature,linearity", isCorrect: true },
-          { id: "b", text: "Volatile nature,non-linearity", isCorrect: false },
-          { id: "c", text: "Volatile nature,linearity", isCorrect: false },
+          { id: "a", text: "Non-volatile nature, linearity", isCorrect: false },
+          { id: "b", text: "Volatile nature, non-linearity", isCorrect: false },
+          { id: "c", text: "Volatile nature, linearity", isCorrect: false },
           {
             id: "d",
-            text: "Non-volatile nature,non-linearity",
-            isCorrect: false,
+            text: "Non-volatile nature, non-linearity",
+            isCorrect: true,
           },
         ],
       },
       {
         id: 45,
-        question: "                is considered as a subset of memristor",
+        question: "_______ is considered as a subset of memristor",
         options: [
           { id: "a", text: "ROM", isCorrect: false },
-          { id: "b", text: "ReRAM", isCorrect: true },
+          { id: "b", text: "ReRAM / RRAM", isCorrect: true },
           { id: "c", text: "Static RAM", isCorrect: false },
           { id: "d", text: "DRAM", isCorrect: false },
         ],
@@ -650,18 +655,18 @@ export const units: Unit[] = [
       {
         id: 46,
         question:
-          "Hysteresisloopand                 phase shift between current andvoltage,at                                                         are the significant features ofmemristor",
+          "Hysteresis loop and _____ phase shift between current and voltage, at _____ are the significant features of memristor",
         options: [
-          { id: "a", text: "0°, 0crossing", isCorrect: false },
-          { id: "b", text: "90°, 0crossing", isCorrect: true },
-          { id: "c", text: "45°, non 0crossing", isCorrect: false },
-          { id: "d", text: "180°, non 0crossing", isCorrect: false },
+          { id: "a", text: "0°, 0 crossing", isCorrect: true },
+          { id: "b", text: "90°, 0 crossing", isCorrect: false },
+          { id: "c", text: "45°, non 0 crossing", isCorrect: false },
+          { id: "d", text: "180°, non 0 crossing", isCorrect: false },
         ],
       },
       {
         id: 47,
         question:
-          "Memristorshows                relation between voltage and current",
+          "Memristor shows _______ relation between voltage and current",
         options: [
           { id: "a", text: "Liner", isCorrect: false },
           { id: "b", text: "Non liner", isCorrect: true },
@@ -671,21 +676,21 @@ export const units: Unit[] = [
       },
       {
         id: 48,
-        question: "Currently OLED displays are madeby               ",
+        question: "Currently OLED displays are made by",
         options: [
           {
             id: "a",
-            text: "Evaporating gases in vacuumchamber",
+            text: "Evaporating gases in vacuum chamber",
             isCorrect: true,
           },
           {
             id: "b",
-            text: "Evaporating liquid in vacuumchamber",
+            text: "Evaporating liquid in vacuum chamber",
             isCorrect: false,
           },
           {
             id: "c",
-            text: "Evaporating solid in vacuumchamber",
+            text: "Evaporating solid in vacuum chamber",
             isCorrect: false,
           },
           { id: "d", text: "Anodization", isCorrect: false },
@@ -694,18 +699,18 @@ export const units: Unit[] = [
       {
         id: 49,
         question:
-          "OLED displays are simpler than LCD they donot require                or                   ",
+          "OLED displays are simpler than LCD they do not require ________ or _______",
         options: [
-          { id: "a", text: "Power,filtering", isCorrect: false },
-          { id: "b", text: "Power,diffusing", isCorrect: false },
-          { id: "c", text: "Backlight,filtering", isCorrect: false },
-          { id: "d", text: "Backlight,diffusing", isCorrect: true },
+          { id: "a", text: "Power, filtering", isCorrect: false },
+          { id: "b", text: "Power, diffusing", isCorrect: false },
+          { id: "c", text: "Backlight, filtering", isCorrect: false },
+          { id: "d", text: "Backlight, diffusing", isCorrect: true },
         ],
       },
       {
         id: 50,
         question:
-          "In the cover lay of FPC, to reduce conductor damage from frequent bending the thickness of the cover lay shouldbe                           ",
+          "In the cover lay of FPC, to reduce conductor damage from frequent bending the thickness of the cover lay should be                           ",
         options: [
           {
             id: "a",
@@ -719,7 +724,7 @@ export const units: Unit[] = [
           },
           {
             id: "c",
-            text: "Less than the thickness of the dielectriclayer",
+            text: "Less than the thickness of the dielectric layer",
             isCorrect: true,
           },
           {
@@ -733,10 +738,14 @@ export const units: Unit[] = [
         id: 51,
         question: "In SMT technology AOI stands for-------",
         options: [
-          { id: "a", text: "Auto OpticalInformation", isCorrect: false },
+          { id: "a", text: "Auto Optical Information", isCorrect: false },
           { id: "b", text: "Automatic Optic Inspection", isCorrect: true },
-          { id: "c", text: "Arithmetic OriginalInformation", isCorrect: false },
-          { id: "d", text: "All OutstandingInformation", isCorrect: false },
+          {
+            id: "c",
+            text: "Arithmetic Original Information",
+            isCorrect: false,
+          },
+          { id: "d", text: "All Outstanding Information", isCorrect: false },
         ],
       },
       {
@@ -779,29 +788,29 @@ export const units: Unit[] = [
         id: 54,
         question: "Memristor establishes a relation between—",
         options: [
-          { id: "a", text: "flux and electriccharge", isCorrect: true },
-          { id: "b", text: "voltage andcurrent", isCorrect: false },
-          { id: "c", text: "charge andvoltage", isCorrect: false },
-          { id: "d", text: "flux andcurrent", isCorrect: false },
+          { id: "a", text: "flux and electric charge", isCorrect: true },
+          { id: "b", text: "voltage and current", isCorrect: false },
+          { id: "c", text: "charge and voltage", isCorrect: false },
+          { id: "d", text: "flux and current", isCorrect: false },
         ],
       },
       {
         id: 55,
         question: "Material used as cathode for Ni-Cd battery is:",
         options: [
-          { id: "a", text: "Cadmiumhydroxide", isCorrect: false },
-          { id: "b", text: "Potassiumhydroxide", isCorrect: false },
-          { id: "c", text: "Nickelhydroxide", isCorrect: false },
-          { id: "d", text: "Graphite", isCorrect: true },
+          { id: "a", text: "Cadmium hydroxide", isCorrect: false },
+          { id: "b", text: "Potassium hydroxide", isCorrect: false },
+          { id: "c", text: "Nickel hydroxide", isCorrect: true },
+          { id: "d", text: "Graphite", isCorrect: false },
         ],
       },
       {
         id: 56,
         question: "Material used as anode for Ni-Cd battery is:",
         options: [
-          { id: "a", text: "Cadmiumhydroxide", isCorrect: true },
-          { id: "b", text: "Potassiumhydroxide", isCorrect: false },
-          { id: "c", text: "Nickelhydroxide", isCorrect: false },
+          { id: "a", text: "Cadmium hydroxide", isCorrect: true },
+          { id: "b", text: "Potassium hydroxide", isCorrect: false },
+          { id: "c", text: "Nickel hydroxide", isCorrect: false },
           { id: "d", text: "Lithium metaloxide", isCorrect: false },
         ],
       },
@@ -810,8 +819,8 @@ export const units: Unit[] = [
         question: "Material used as anode for Li-ion battery is:",
         options: [
           { id: "a", text: "Graphite", isCorrect: true },
-          { id: "b", text: "Potassiumhydroxide", isCorrect: false },
-          { id: "c", text: "Nickelhydroxide", isCorrect: false },
+          { id: "b", text: "Potassium hydroxide", isCorrect: false },
+          { id: "c", text: "Nickel hydroxide", isCorrect: false },
           { id: "d", text: "Lithium metaloxide", isCorrect: false },
         ],
       },
@@ -821,26 +830,26 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Sound waves into electricalsignals",
+            text: "Sound waves into electrical signals",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "Chemical energy into electricalenergy",
+            text: "Chemical energy into electrical energy",
             isCorrect: true,
           },
           {
             id: "c",
-            text: "Audio signals into videosignals",
+            text: "Audio signals into video signals",
             isCorrect: false,
           },
-          { id: "d", text: "Light energy into heatenergy", isCorrect: false },
+          { id: "d", text: "Light energy into heat energy", isCorrect: false },
         ],
       },
       {
         id: 59,
         question:
-          "Rolled annealed copperfoilsoffer--------------resistance to continuousflexing.",
+          "Rolled annealed copper foils offer--------------resistance to continuous flexing.",
         options: [
           { id: "a", text: "High", isCorrect: false },
           { id: "b", text: "Low", isCorrect: true },
@@ -851,12 +860,12 @@ export const units: Unit[] = [
       {
         id: 60,
         question:
-          "In batteries positive electrode istermedas------------and negative electrode istermed as------.",
+          "In batteries positive electrode is termed as _______ and negative electrode is termed as _______.",
         options: [
-          { id: "a", text: "anode,cathode", isCorrect: true },
-          { id: "b", text: "cathodeanode", isCorrect: false },
-          { id: "c", text: "terminal,lead", isCorrect: false },
-          { id: "d", text: "lead,electrolyte", isCorrect: false },
+          { id: "a", text: "anode, cathode", isCorrect: false },
+          { id: "b", text: "cathode, anode", isCorrect: true },
+          { id: "c", text: "terminal, lead", isCorrect: false },
+          { id: "d", text: "lead, electrolyte", isCorrect: false },
         ],
       },
     ],
@@ -891,7 +900,7 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Access , Transport, Control Servicelayer",
+            text: "Access, Transport, Control, Service layer",
             isCorrect: true,
           },
           {
@@ -911,15 +920,15 @@ export const units: Unit[] = [
         id: 64,
         question: "In NGN, CDF(Content Delivery Function ) is a function of",
         options: [
-          { id: "a", text: "TransportStratum", isCorrect: false },
-          { id: "b", text: "ServiceStratum", isCorrect: true },
+          { id: "a", text: "Transport Stratum", isCorrect: false },
+          { id: "b", text: "Service Stratum", isCorrect: true },
           { id: "c", text: "Transport and Service Stratum", isCorrect: false },
-          { id: "d", text: "Not fromabove", isCorrect: false },
+          { id: "d", text: "Not from above", isCorrect: false },
         ],
       },
       {
         id: 65,
-        question: "----------------MULTIPLEXING IS USED IN3G.",
+        question: "----------------MULTIPLEXING IS USED IN 3G.",
         options: [
           { id: "a", text: "FDMA", isCorrect: false },
           { id: "b", text: "CDMA", isCorrect: true },
@@ -941,15 +950,19 @@ export const units: Unit[] = [
         id: 67,
         question: "In NGN , URL stands for",
         options: [
-          { id: "a", text: "Unified Resource Locator", isCorrect: true },
-          { id: "b", text: "Universal  RegionalLine", isCorrect: false },
-          { id: "c", text: "Universal Rectifiedlevel", isCorrect: false },
+          {
+            id: "a",
+            text: "Unified / Uniform Resource Locator",
+            isCorrect: true,
+          },
+          { id: "b", text: "Universal  Regional Line", isCorrect: false },
+          { id: "c", text: "Universal Rectified level", isCorrect: false },
           { id: "d", text: "Unified Range Locator", isCorrect: false },
         ],
       },
       {
         id: 68,
-        question: "1Guses----------technology.",
+        question: "1 Guses----------technology.",
         options: [
           { id: "a", text: "Digital", isCorrect: false },
           { id: "b", text: "CDMA", isCorrect: false },
@@ -992,8 +1005,8 @@ export const units: Unit[] = [
         question:
           "In licensed radio band , allocated frequency band for FM broadcast is",
         options: [
-          { id: "a", text: "148.5 KHz to 283.5KHz", isCorrect: false },
-          { id: "b", text: "87.5 MHz to 108.0MHz", isCorrect: true },
+          { id: "a", text: "148.5 KHz to 283.5 KHz", isCorrect: false },
+          { id: "b", text: "87.5 MHz to 108.0 MHz", isCorrect: true },
           { id: "c", text: "87.5 KHz to 108.0 MHz", isCorrect: false },
           { id: "d", text: "840 MHz to 900 MHz", isCorrect: false },
         ],
@@ -1004,26 +1017,30 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Frequency spectrum management including licensing and needs ofusers",
+            text: "Frequency spectrum management including licensing and needs of users",
             isCorrect: true,
           },
-          { id: "b", text: "Providing informationresources", isCorrect: false },
           {
-            id: "c",
-            text: "Managing and setting standards for spectrumuse",
+            id: "b",
+            text: "Providing information resources",
             isCorrect: false,
           },
-          { id: "d", text: "Creating standard forWLAN", isCorrect: false },
+          {
+            id: "c",
+            text: "Managing and setting standards for spectrum use",
+            isCorrect: false,
+          },
+          { id: "d", text: "Creating standard for WLAN", isCorrect: false },
         ],
       },
       {
         id: 74,
         question: "Line side interface to the core IP network is supported by",
         options: [
-          { id: "a", text: "Trunk MediaGateway", isCorrect: true },
-          { id: "b", text: "Signalinggateway", isCorrect: false },
-          { id: "c", text: "Accessgateway", isCorrect: false },
-          { id: "d", text: "Accessnetwork", isCorrect: false },
+          { id: "a", text: "Trunk Media Gateway", isCorrect: false },
+          { id: "b", text: "Signaling gateway", isCorrect: false },
+          { id: "c", text: "Access gateway", isCorrect: true },
+          { id: "d", text: "Access network", isCorrect: false },
         ],
       },
       {
@@ -1031,10 +1048,10 @@ export const units: Unit[] = [
         question:
           "The connectivity between customer premises equipment and access gateway in the service provider’s network is provided by",
         options: [
-          { id: "a", text: "Trunk MediaGateway", isCorrect: false },
-          { id: "b", text: "Signalinggateway", isCorrect: false },
-          { id: "c", text: "Accessgateway", isCorrect: false },
-          { id: "d", text: "Accessnetwork", isCorrect: true },
+          { id: "a", text: "Trunk Media Gateway", isCorrect: false },
+          { id: "b", text: "Signaling gateway", isCorrect: false },
+          { id: "c", text: "Access gateway", isCorrect: false },
+          { id: "d", text: "Access network", isCorrect: true },
         ],
       },
       {
@@ -1055,7 +1072,7 @@ export const units: Unit[] = [
           { id: "a", text: "Within a city", isCorrect: false },
           { id: "b", text: "Within a state", isCorrect: false },
           { id: "c", text: "Within a country", isCorrect: false },
-          { id: "d", text: "Anywhere inworld", isCorrect: true },
+          { id: "d", text: "Anywhere in world", isCorrect: true },
         ],
       },
       {
@@ -1066,24 +1083,24 @@ export const units: Unit[] = [
           { id: "a", text: "Same", isCorrect: false },
           {
             id: "b",
-            text: "For downstream signal wavelength is greater than that of upstreamsignal",
+            text: "For downstream signal wavelength is greater than that of upstream signal",
             isCorrect: true,
           },
           {
             id: "c",
-            text: "For downstream signal wavelength is lower than that of upstreamsignal",
+            text: "For downstream signal wavelength is lower than that of upstream signal",
             isCorrect: false,
           },
           {
             id: "d",
-            text: "Depends on application itvaries",
+            text: "Depends on application it varies",
             isCorrect: false,
           },
         ],
       },
       {
         id: 79,
-        question: " MPLS header length is afieldof-------------bits.",
+        question: " MPLS header length is a field of-------------bits.",
         options: [
           { id: "a", text: "32", isCorrect: true },
           { id: "b", text: "24", isCorrect: false },
@@ -1105,7 +1122,7 @@ export const units: Unit[] = [
         id: 81,
         question: "The use of EXP(Experimental) bits are",
         options: [
-          { id: "a", text: "Quality ofservice", isCorrect: true },
+          { id: "a", text: "Quality of service", isCorrect: true },
           {
             id: "b",
             text: "Avoid a packet being stuck in a routingloop",

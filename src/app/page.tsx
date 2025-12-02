@@ -51,11 +51,11 @@ export default function MCQPage() {
         </Card>
 
         {/* Toggle Answers Button */}
-        <div className="flex justify-end mb-4">
+        <div className="flex justify-end mb-4 cursor-pointer">
           <Button
             onClick={() => setShowAnswers(!showAnswers)}
             variant={showAnswers ? "default" : "outline"}
-            className="gap-2"
+            className="gap-2 cursor-pointer"
           >
             <CheckCircle2 className="h-4 w-4" />
             {showAnswers ? "Hide Answers" : "Show Answers"}
