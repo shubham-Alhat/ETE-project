@@ -2916,8 +2916,8 @@ export const units: Unit[] = [
         id: 100,
         question: "Name wireless device used to control X-10system",
         options: [
-          { id: "a", text: "Aircondinionar", isCorrect: false },
-          { id: "b", text: "Wirelssrouter", isCorrect: true },
+          { id: "a", text: "Air condinionar", isCorrect: false },
+          { id: "b", text: "Wireless router", isCorrect: true },
           { id: "c", text: "TV", isCorrect: false },
           { id: "d", text: "Lighting", isCorrect: false },
         ],
