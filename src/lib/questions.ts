@@ -1150,31 +1150,31 @@ export const units: Unit[] = [
         id: 83,
         question: "SDH is-------------------",
         options: [
-          { id: "a", text: "Session layerprotocol", isCorrect: false },
-          { id: "b", text: "Transport layerprotocol", isCorrect: true },
-          { id: "c", text: "Serviceprotocol", isCorrect: false },
+          { id: "a", text: "Session layer protocol", isCorrect: false },
+          { id: "b", text: "Transport layer protocol", isCorrect: true },
+          { id: "c", text: "Service protocol", isCorrect: false },
           { id: "d", text: "Application protocol", isCorrect: false },
         ],
       },
       {
         id: 84,
-        question: "TTL in a MPLS labelis",
+        question: "TTL in a MPLS label is",
         options: [
           { id: "a", text: "Transistor Transistor Logic", isCorrect: false },
-          { id: "b", text: "Time toLive", isCorrect: true },
-          { id: "c", text: "Technology TransferLayer", isCorrect: false },
-          { id: "d", text: "Not fromabove", isCorrect: false },
+          { id: "b", text: "Time to Live", isCorrect: true },
+          { id: "c", text: "Technology Transfer Layer", isCorrect: false },
+          { id: "d", text: "Not from above", isCorrect: false },
         ],
       },
       {
         id: 85,
         question:
-          "In OTN network, Characteristics of optical transport network hierarchy equipment functional blocks is definedby:",
+          "In OTN network, Characteristics of optical transport network hierarchy equipment functional blocks is defined by:",
         options: [
-          { id: "a", text: "G-872", isCorrect: true },
+          { id: "a", text: "G-872", isCorrect: false },
           { id: "b", text: "G-709", isCorrect: false },
           { id: "c", text: "G-873.1", isCorrect: false },
-          { id: "d", text: "G-798", isCorrect: false },
+          { id: "d", text: "G-798", isCorrect: true },
         ],
       },
       {
@@ -1245,30 +1245,30 @@ export const units: Unit[] = [
         id: 92,
         question: "In MPLS Header field BOS stands for:-",
         options: [
-          { id: "a", text: "Bits ofservice", isCorrect: false },
-          { id: "b", text: "Bits onStack", isCorrect: false },
-          { id: "c", text: "Binary onshift", isCorrect: false },
-          { id: "d", text: "Bottom ofStack", isCorrect: true },
+          { id: "a", text: "Bits of service", isCorrect: false },
+          { id: "b", text: "Bits on Stack", isCorrect: false },
+          { id: "c", text: "Binary on shift", isCorrect: false },
+          { id: "d", text: "Bottom of Stack", isCorrect: true },
         ],
       },
       {
         id: 93,
         question: "Digital broadcast service is a example of:-",
         options: [
-          { id: "a", text: "Asymmetric broadbandservice", isCorrect: true },
-          { id: "b", text: "Symmetric broadbandservice", isCorrect: false },
-          { id: "c", text: "Asynchronousservice", isCorrect: false },
-          { id: "d", text: "Parallel transmissionservice", isCorrect: false },
+          { id: "a", text: "Asymmetric broadband service", isCorrect: true },
+          { id: "b", text: "Symmetric broadband service", isCorrect: false },
+          { id: "c", text: "Asynchronous service", isCorrect: false },
+          { id: "d", text: "Parallel transmission service", isCorrect: false },
         ],
       },
       {
         id: 94,
         question: "In NGN core MPLS stands for:---------",
         options: [
-          { id: "a", text: "Medium Port LineStandard", isCorrect: false },
-          { id: "b", text: "Multi Port LineSwitching", isCorrect: false },
-          { id: "c", text: "Multi Protocol LabelSwitching", isCorrect: true },
-          { id: "d", text: "Mega Print LineSimulation", isCorrect: false },
+          { id: "a", text: "Medium Port Line Standard", isCorrect: false },
+          { id: "b", text: "Multi Port Line Switching", isCorrect: false },
+          { id: "c", text: "Multi Protocol Label Switching", isCorrect: true },
+          { id: "d", text: "Mega Print Line Simulation", isCorrect: false },
         ],
       },
       {
@@ -1277,15 +1277,15 @@ export const units: Unit[] = [
           "In FTTx Network Architecture ONU and OLT are connected through:-",
         options: [
           { id: "a", text: "Wirelessly", isCorrect: false },
-          { id: "b", text: "CopperCable", isCorrect: false },
-          { id: "c", text: "FibreCable", isCorrect: true },
+          { id: "b", text: "Copper Cable", isCorrect: false },
+          { id: "c", text: "Fibre Cable", isCorrect: true },
           { id: "d", text: "Not above", isCorrect: false },
         ],
       },
       {
         id: 96,
         question:
-          "-----------------is a driver for the deployment of advanced optoelectronicstechnologies.",
+          "-----------------is a driver for the deployment of advanced optoelectronics technologies.",
         options: [
           { id: "a", text: "NGNC", isCorrect: false },
           { id: "b", text: "GSM", isCorrect: false },
@@ -1307,7 +1307,7 @@ export const units: Unit[] = [
       {
         id: 98,
         question:
-          "In FTTH architecture generallyinupstream,-----------------protocol is required.",
+          "In FTTH architecture generally in upstream,-----------------protocol is required.",
         options: [
           { id: "a", text: "CDMA", isCorrect: false },
           { id: "b", text: "FDMA", isCorrect: false },
@@ -1370,7 +1370,7 @@ export const units: Unit[] = [
       },
       {
         id: 104,
-        question: "XG-PON is alsodescribedas-----------------inIEEE(802.3)",
+        question: "XG-PON is also described as-----------------in IEEE(802.3)",
         options: [
           { id: "a", text: "1G-EPON", isCorrect: false },
           { id: "b", text: "3G-EPON", isCorrect: false },
@@ -1417,10 +1417,10 @@ export const units: Unit[] = [
             isCorrect: false,
           },
           { id: "b", text: "Adequate crop water management", isCorrect: true },
-          { id: "c", text: "Pest Mangement andcontrol", isCorrect: false },
+          { id: "c", text: "Pest Mangement and control", isCorrect: false },
           {
             id: "d",
-            text: "Food Monitoring and safetymanagement",
+            text: "Food Monitoring and safety management",
             isCorrect: false,
           },
         ],
@@ -1430,20 +1430,20 @@ export const units: Unit[] = [
         question:
           "Aircraft or satellite manufacturing is an example of discrete manufacturing with",
         options: [
-          { id: "a", text: "High Complexity and Lowvolume", isCorrect: true },
-          { id: "b", text: "Low Complexity and highvolume", isCorrect: false },
-          { id: "c", text: "Low complexity and lowvolume", isCorrect: false },
-          { id: "d", text: "High complexity highvolume", isCorrect: false },
+          { id: "a", text: "High Complexity and Low volume", isCorrect: true },
+          { id: "b", text: "Low Complexity and high volume", isCorrect: false },
+          { id: "c", text: "Low complexity and low volume", isCorrect: false },
+          { id: "d", text: "High complexity high volume", isCorrect: false },
         ],
       },
       {
         id: 33,
         question: "Challenges for discrete manufacturing industry are:",
         options: [
-          { id: "a", text: "Only connectedproducts", isCorrect: false },
-          { id: "b", text: "Only connected supplychain", isCorrect: false },
-          { id: "c", text: "Only smartmanufacturing", isCorrect: false },
-          { id: "d", text: "All ofabove", isCorrect: true },
+          { id: "a", text: "Only connected products", isCorrect: false },
+          { id: "b", text: "Only connected supply chain", isCorrect: false },
+          { id: "c", text: "Only smart manufacturing", isCorrect: false },
+          { id: "d", text: "All of above", isCorrect: true },
         ],
       },
       {
@@ -1453,7 +1453,7 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "GPS, Gyroscope, orientation sensors, andaccelerometer",
+            text: "GPS, Gyroscope, orientation sensors, and accelerometer",
             isCorrect: true,
           },
           {
@@ -1461,7 +1461,7 @@ export const units: Unit[] = [
             text: "Voice, face print or fingerprint",
             isCorrect: false,
           },
-          { id: "c", text: "Emission, mileagesensor", isCorrect: false },
+          { id: "c", text: "Emission, mileage sensor", isCorrect: false },
           {
             id: "d",
             text: "Ultrasonic sensor, pressure and temperature sensor",
@@ -1471,29 +1471,29 @@ export const units: Unit[] = [
       },
       {
         id: 35,
-        question: "Gateways are usedto:",
+        question: "Gateways are used to:",
         options: [
-          { id: "a", text: "Consolidate data fromsensors", isCorrect: false },
+          { id: "a", text: "Consolidate data from sensors", isCorrect: false },
           {
             id: "b",
-            text: "Route it to relevant datasystem",
+            text: "Route it to relevant data system",
             isCorrect: false,
           },
           {
             id: "c",
-            text: "If problem encountered return to thedevice",
+            text: "If problem encountered return to the device",
             isCorrect: false,
           },
-          { id: "d", text: "All ofabove", isCorrect: true },
+          { id: "d", text: "All of above", isCorrect: true },
         ],
       },
       {
         id: 36,
         question: "What is the name of first recognized IoT Device?",
         options: [
-          { id: "a", text: "ATM", isCorrect: false },
+          { id: "a", text: "ATM", isCorrect: true },
           { id: "b", text: "Smart Watch", isCorrect: false },
-          { id: "c", text: "Radio", isCorrect: true },
+          { id: "c", text: "Radio", isCorrect: false },
           { id: "d", text: "VideoGame", isCorrect: false },
         ],
       },
@@ -1504,22 +1504,22 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "intercommunication, collaboration andexecution",
+            text: "intercommunication, collaboration and execution",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "interconnection, communication andexecution",
+            text: "interconnection, communication and execution",
             isCorrect: false,
           },
           {
             id: "c",
-            text: "interconnection, collaboration andexecution",
+            text: "interconnection, collaboration and execution",
             isCorrect: true,
           },
           {
             id: "d",
-            text: "interconnection, collaboration andexpansion",
+            text: "interconnection, collaboration and expansion",
             isCorrect: false,
           },
         ],
@@ -1530,24 +1530,24 @@ export const units: Unit[] = [
         options: [
           { id: "a", text: "Healthcare", isCorrect: false },
           { id: "b", text: "Finance", isCorrect: false },
-          { id: "c", text: "Retail andManufacturing", isCorrect: false },
-          { id: "d", text: "All ofabove", isCorrect: true },
+          { id: "c", text: "Retail and Manufacturing", isCorrect: false },
+          { id: "d", text: "All of above", isCorrect: true },
         ],
       },
       {
         id: 39,
         question:
-          "          stage in IoT performs data preprocessing and enhancedanalytics",
+          "_______ stage in IoT performs data preprocessing and enhanced analytics",
         options: [
           { id: "a", text: "First Stage", isCorrect: false },
-          { id: "b", text: "SecondStage", isCorrect: true },
-          { id: "c", text: "ThirdStage", isCorrect: false },
-          { id: "d", text: "FourthStage", isCorrect: false },
+          { id: "b", text: "Second Stage", isCorrect: true },
+          { id: "c", text: "Third Stage", isCorrect: false },
+          { id: "d", text: "Fourth Stage", isCorrect: false },
         ],
       },
       {
         id: 40,
-        question: "-----------is the author of The Fourth IndustrialEvolution",
+        question: "-----------is the author of The Fourth Industrial Evolution",
         options: [
           { id: "a", text: "Professor ClaudSchwaz", isCorrect: false },
           { id: "b", text: "Professor KlausSchwab", isCorrect: true },
@@ -1557,12 +1557,11 @@ export const units: Unit[] = [
       },
       {
         id: 41,
-        question:
-          "Vehicular systems can be a sample exampleof                            ",
+        question: "Vehicular systems can be a sample example of",
         options: [
           { id: "a", text: "IIoT", isCorrect: false },
           { id: "b", text: "RAMI4.0", isCorrect: false },
-          { id: "c", text: "Cyber PhysicalSystem", isCorrect: true },
+          { id: "c", text: "Cyber Physical System", isCorrect: true },
           { id: "d", text: "PLCSCADA", isCorrect: false },
         ],
       },
@@ -1570,10 +1569,10 @@ export const units: Unit[] = [
         id: 42,
         question: "The IoT has features like",
         options: [
-          { id: "a", text: "Fullperception", isCorrect: false },
-          { id: "b", text: "reliabletransmission", isCorrect: false },
+          { id: "a", text: "Full perception", isCorrect: false },
+          { id: "b", text: "reliable transmission", isCorrect: false },
           { id: "c", text: "intelligentprocessing", isCorrect: false },
-          { id: "d", text: "All ofAbove", isCorrect: true },
+          { id: "d", text: "All of Above", isCorrect: true },
         ],
       },
       {
@@ -1581,24 +1580,24 @@ export const units: Unit[] = [
         question:
           "-------------------is the direct contact between two smart objects when they shareinformation instantaneously without intermediaries",
         options: [
-          { id: "a", text: "Device toDevice", isCorrect: true },
-          { id: "b", text: "Device toGateway", isCorrect: false },
-          { id: "c", text: "Gateway to datasystems", isCorrect: false },
-          { id: "d", text: "Between Datasystems", isCorrect: false },
+          { id: "a", text: "Device to Device", isCorrect: true },
+          { id: "b", text: "Device to Gateway", isCorrect: false },
+          { id: "c", text: "Gateway to data systems", isCorrect: false },
+          { id: "d", text: "Between Data systems", isCorrect: false },
         ],
       },
       {
         id: 44,
-        question: "Edge Gateway function isto",
+        question: "Edge Gateway function is to",
         options: [
           {
             id: "a",
             text: "Interface between cloud and sensornetwork",
             isCorrect: true,
           },
-          { id: "b", text: "DataManagement", isCorrect: false },
-          { id: "c", text: "Collect data fromthings", isCorrect: false },
-          { id: "d", text: "Supervise the CPSsystem", isCorrect: false },
+          { id: "b", text: "Data Management", isCorrect: false },
+          { id: "c", text: "Collect data from things", isCorrect: false },
+          { id: "d", text: "Supervise the CPS system", isCorrect: false },
         ],
       },
       {
@@ -1609,7 +1608,7 @@ export const units: Unit[] = [
           { id: "a", text: "Electric Lightening", isCorrect: false },
           { id: "b", text: "Radio", isCorrect: false },
           { id: "c", text: "Telephones", isCorrect: false },
-          { id: "d", text: "All ofAbove", isCorrect: true },
+          { id: "d", text: "All of Above", isCorrect: true },
         ],
       },
       {
@@ -1619,7 +1618,7 @@ export const units: Unit[] = [
           { id: "a", text: "OpenDoors", isCorrect: false },
           { id: "b", text: "LightOn", isCorrect: false },
           { id: "c", text: "Handbrake", isCorrect: false },
-          { id: "d", text: "All ofAbove", isCorrect: true },
+          { id: "d", text: "All of Above", isCorrect: true },
         ],
       },
       {
@@ -1629,7 +1628,7 @@ export const units: Unit[] = [
         options: [
           { id: "a", text: "Digital", isCorrect: true },
           { id: "b", text: "Analogue", isCorrect: false },
-          { id: "c", text: "Both of theabove", isCorrect: false },
+          { id: "c", text: "Both of the above", isCorrect: false },
           {
             id: "d",
             text: "Any sensors with communication capabilityonly",
@@ -1641,10 +1640,10 @@ export const units: Unit[] = [
         id: 48,
         question: "IoT Gateway must provide:",
         options: [
-          { id: "a", text: "ProtocolAbstraction", isCorrect: true },
-          { id: "b", text: "Security withHardware", isCorrect: false },
-          { id: "c", text: "Simple and fastinstallation", isCorrect: false },
-          { id: "d", text: "DataStorage", isCorrect: false },
+          { id: "a", text: "Protocol Abstraction", isCorrect: true },
+          { id: "b", text: "Security with Hardware", isCorrect: false },
+          { id: "c", text: "Simple and fast installation", isCorrect: false },
+          { id: "d", text: "Data Storage", isCorrect: false },
         ],
       },
       {
@@ -1661,16 +1660,16 @@ export const units: Unit[] = [
         id: 50,
         question: "Smart Farming can be achieved by",
         options: [
-          { id: "a", text: "IoTStick", isCorrect: false },
+          { id: "a", text: "IoT Stick", isCorrect: false },
           {
             id: "b",
-            text: "Automation using irrigationsystems",
+            text: "Automation using irrigation systems",
             isCorrect: true,
           },
-          { id: "c", text: "Automated cropharvesting", isCorrect: false },
+          { id: "c", text: "Automated crop harvesting", isCorrect: false },
           {
             id: "d",
-            text: "Automation food storage and transportmanagement",
+            text: "Automation food storage and transport management",
             isCorrect: false,
           },
         ],
@@ -1678,7 +1677,7 @@ export const units: Unit[] = [
       {
         id: 51,
         question:
-          "                                has ability to convert the information obtained from the outer world into data foranalysis.",
+          " ________ has ability to convert the information obtained from the outer world into data for analysis.",
         options: [
           { id: "a", text: "Sensors", isCorrect: true },
           { id: "b", text: "Actuator", isCorrect: false },
@@ -1699,7 +1698,7 @@ export const units: Unit[] = [
       {
         id: 53,
         question:
-          "Transreceiverstransmits                   dataandreceive                    commands.",
+          "Transreceivers transmits ______ data and receive _______ commands.",
         options: [
           { id: "a", text: "sensor,actuator", isCorrect: true },
           { id: "b", text: "things,sensor", isCorrect: false },
@@ -1709,27 +1708,31 @@ export const units: Unit[] = [
       },
       {
         id: 54,
-        question: '"Actuators" main functionis                         ',
+        question: '"Actuators" main function is                         ',
         options: [
           {
             id: "a",
-            text: "these devices are able to intervene the physicalreality",
+            text: "these devices are able to intervene the physical reality",
             isCorrect: true,
           },
-          { id: "b", text: "getinformation", isCorrect: false },
-          { id: "c", text: "Analysis and management ofdata", isCorrect: false },
-          { id: "d", text: "Analysis and storage ofdata", isCorrect: false },
+          { id: "b", text: "get information", isCorrect: false },
+          {
+            id: "c",
+            text: "Analysis and management of data",
+            isCorrect: false,
+          },
+          { id: "d", text: "Analysis and storage of data", isCorrect: false },
         ],
       },
       {
         id: 55,
         question:
-          "Cyber Physical Systemshavelimited                   and                 capabilities due to their tiny size.",
+          "Cyber Physical Systems have limited _____ and ______ capabilities due to their tiny size.",
         options: [
-          { id: "a", text: "computation,storage", isCorrect: true },
-          { id: "b", text: "storage,transmitting", isCorrect: false },
-          { id: "c", text: "computation,transmitting", isCorrect: false },
-          { id: "d", text: "computation ,analysis", isCorrect: false },
+          { id: "a", text: "computation, storage", isCorrect: true },
+          { id: "b", text: "storage, transmitting", isCorrect: false },
+          { id: "c", text: "computation, transmitting", isCorrect: false },
+          { id: "d", text: "computation, analysis", isCorrect: false },
         ],
       },
       {
@@ -1746,14 +1749,13 @@ export const units: Unit[] = [
             text: "Enables local, short-range communication between IoTdevices",
             isCorrect: false,
           },
-          { id: "c", text: "Both theabove", isCorrect: true },
-          { id: "d", text: "None ofthese", isCorrect: false },
+          { id: "c", text: "Both the above", isCorrect: true },
+          { id: "d", text: "None of these", isCorrect: false },
         ],
       },
       {
         id: 57,
-        question:
-          "RAMI 4.0is a                                           dimensionalarchitecture",
+        question: "RAMI 4.0 is a ________ dimensional architecture",
         options: [
           { id: "a", text: "3", isCorrect: true },
           { id: "b", text: "4", isCorrect: false },
@@ -1766,16 +1768,16 @@ export const units: Unit[] = [
         question:
           "Identify which one of the following is not a part of functional layer of RAMI 4.0",
         options: [
-          { id: "a", text: "Application SupportLayer", isCorrect: false },
-          { id: "b", text: "BusinessLayer", isCorrect: true },
-          { id: "c", text: "AssetsLayer", isCorrect: false },
-          { id: "d", text: "InformationLayer", isCorrect: false },
+          { id: "a", text: "Application Support Layer", isCorrect: false },
+          { id: "b", text: "Business Layer", isCorrect: true },
+          { id: "c", text: "Assets Layer", isCorrect: false },
+          { id: "d", text: "Information Layer", isCorrect: false },
         ],
       },
       {
         id: 59,
         question:
-          "Late generation                          systems developed intofirstgeneration                                                             systems.",
+          "Late generation _______ systems developed into first generation _______ systems.",
         options: [
           { id: "a", text: "SCADA, IIoT", isCorrect: true },
           { id: "b", text: "SCADA, IoT", isCorrect: false },
@@ -1786,12 +1788,12 @@ export const units: Unit[] = [
       {
         id: 60,
         question:
-          "An IoT gateway may also be referred to as an intelligent gatewayor                                    ",
+          "An IoT gateway may also be referred to as an intelligent gateway or _______",
         options: [
-          { id: "a", text: "control tier", isCorrect: false },
-          { id: "b", text: "controlgateway", isCorrect: false },
-          { id: "c", text: "SMARTgateway", isCorrect: true },
-          { id: "d", text: "controllayer", isCorrect: false },
+          { id: "a", text: "control tier", isCorrect: true },
+          { id: "b", text: "control gateway", isCorrect: false },
+          { id: "c", text: "SMART gateway", isCorrect: false },
+          { id: "d", text: "control layer", isCorrect: false },
         ],
       },
     ],
@@ -1803,20 +1805,20 @@ export const units: Unit[] = [
       {
         id: 1,
         question:
-          "Control unit in smart home receive all switching signals but switch ON or OFF particular appliance dueto-------------",
+          "Control unit in smart home receive all switching signals but switch ON or OFF particular appliance due to-------------",
         options: [
-          { id: "a", text: "correctfrequency.", isCorrect: false },
-          { id: "b", text: "correctcode.", isCorrect: true },
-          { id: "c", text: "correctname", isCorrect: false },
-          { id: "d", text: "correctlabel", isCorrect: false },
+          { id: "a", text: "correct frequency.", isCorrect: false },
+          { id: "b", text: "correct code.", isCorrect: true },
+          { id: "c", text: "correct name", isCorrect: false },
+          { id: "d", text: "correct label", isCorrect: false },
         ],
       },
       {
         id: 2,
-        question: "Identify the positionsensor:-",
+        question: "Identify the position sensor:-",
         options: [
-          { id: "a", text: "Magneticsensor", isCorrect: true },
-          { id: "b", text: "Both a &c", isCorrect: false },
+          { id: "a", text: "Magnetic sensor", isCorrect: true },
+          { id: "b", text: "Both a & c", isCorrect: false },
           { id: "c", text: "Audio sensor", isCorrect: false },
           { id: "d", text: "barometer", isCorrect: false },
         ],
