@@ -2635,7 +2635,7 @@ export const units: Unit[] = [
       {
         id: 75,
         question:
-          "Disadvantage of Wired communication over wireless communicationis:",
+          "Disadvantage of Wired communication over wireless communicationis",
         options: [
           { id: "a", text: "Less prone to interference", isCorrect: false },
           { id: "b", text: "More reliable", isCorrect: false },
