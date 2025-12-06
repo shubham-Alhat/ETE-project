@@ -1800,7 +1800,7 @@ export const units: Unit[] = [
   },
   {
     id: "unit5",
-    name: "Unit 5: SmartWorld",
+    name: "Unit 5: Smart World",
     questions: [
       {
         id: 1,
@@ -1826,84 +1826,88 @@ export const units: Unit[] = [
       {
         id: 3,
         question:
-          "Name the device that constantly crawls around floors sweeping thedust.",
+          "Name the device that constantly crawls around floors sweeping the dust.",
         options: [
-          { id: "a", text: "Hairdryer", isCorrect: false },
-          { id: "b", text: "Robotic vacuumcleaner", isCorrect: true },
-          { id: "c", text: "Electricoven", isCorrect: false },
+          { id: "a", text: "Hair dryer", isCorrect: false },
+          { id: "b", text: "Robotic vacuum cleaner", isCorrect: true },
+          { id: "c", text: "Electric oven", isCorrect: false },
           { id: "d", text: "Refrigerator", isCorrect: false },
         ],
       },
       {
         id: 4,
-        question: "Type of audiosensors:-",
+        question: "Type of audio sensors:-",
         options: [
-          { id: "a", text: "Microphone", isCorrect: false },
-          { id: "b", text: "Lightsensor", isCorrect: false },
-          { id: "c", text: "both a &b", isCorrect: false },
-          { id: "d", text: "Heart rate sensor", isCorrect: true },
+          { id: "a", text: "Microphone", isCorrect: true },
+          { id: "b", text: "Light sensor", isCorrect: false },
+          { id: "c", text: "both a & b", isCorrect: false },
+          { id: "d", text: "Heart rate sensor", isCorrect: false },
         ],
       },
       {
         id: 5,
-        question: "Functions of microphonesare:-",
+        question: "Functions of microphones are:-",
         options: [
-          { id: "a", text: "Playbackaudiosignal", isCorrect: false },
-          { id: "b", text: "Detectsacousticsignal", isCorrect: true },
-          { id: "c", text: "deal with lightintensity", isCorrect: false },
+          { id: "a", text: "Playback audio signal", isCorrect: false },
+          { id: "b", text: "Detects acoustic signal", isCorrect: true },
+          { id: "c", text: "deal with light intensity", isCorrect: false },
           { id: "d", text: "provide live videofeeds", isCorrect: false },
         ],
       },
       {
         id: 6,
-        question: "The sensor used to adjust the display with motionis:-",
+        question: "The sensor used to adjust the display with motion is:-",
         options: [
-          { id: "a", text: "Linearaccelerationsensor", isCorrect: false },
+          { id: "a", text: "Linear acceleration sensor", isCorrect: true },
           { id: "b", text: "Camera", isCorrect: false },
           { id: "c", text: "RTD", isCorrect: false },
-          { id: "d", text: "proximitysensor", isCorrect: true },
+          { id: "d", text: "proximity sensor", isCorrect: false },
         ],
       },
       {
         id: 7,
         question:
-          "low-voltage current flows between two points throughout the home’s entry points,and breaking the circuit will result in loud siren. This isexampleof                              .",
+          "low-voltage current flows between two points throughout the home’s entry points,and breaking the circuit will result in loud siren. This is example of                              .",
         options: [
-          { id: "a", text: "Home entertainmentsystem", isCorrect: false },
-          { id: "b", text: "Home security and AlarmSystem.", isCorrect: true },
-          { id: "c", text: "Home theatersystem", isCorrect: false },
-          { id: "d", text: "home temperature controlsystem", isCorrect: false },
+          { id: "a", text: "Home entertainment system", isCorrect: false },
+          { id: "b", text: "Home security and Alarm System.", isCorrect: true },
+          { id: "c", text: "Home theater system", isCorrect: false },
+          {
+            id: "d",
+            text: "home temperature control system",
+            isCorrect: false,
+          },
         ],
       },
       {
         id: 8,
-        question: "identify the statement which is not suitable forcamera:-",
+        question: "identify the statement which is not suitable for camera:-",
         options: [
-          { id: "a", text: "deals withlightintensity", isCorrect: false },
-          { id: "b", text: "deviceambiance", isCorrect: true },
+          { id: "a", text: "deals with light intensity", isCorrect: false },
+          { id: "b", text: "device ambiance", isCorrect: true },
           { id: "c", text: "provide live video feeds", isCorrect: false },
-          { id: "d", text: "control automatic lightsystem", isCorrect: false },
+          { id: "d", text: "control automatic light system", isCorrect: false },
         ],
       },
       {
         id: 9,
         question:
-          "is used to fix display position by considering magneticfields.",
+          "is used to fix display position by considering magnetic fields.",
         options: [
-          { id: "a", text: "Lightsensor", isCorrect: false },
-          { id: "b", text: "Magneticsensor", isCorrect: true },
+          { id: "a", text: "Light sensor", isCorrect: false },
+          { id: "b", text: "Magnetic sensor", isCorrect: true },
           { id: "c", text: "photodiode", isCorrect: false },
-          { id: "d", text: "linear accelerationsensor", isCorrect: false },
+          { id: "d", text: "linear acceleration sensor", isCorrect: false },
         ],
       },
       {
         id: 10,
-        question: "A smart home incorporates all theadvanced",
+        question: "A smart home incorporates all the advanced",
         options: [
-          { id: "a", text: "trafficsystem", isCorrect: false },
-          { id: "b", text: "backupsystem", isCorrect: false },
-          { id: "c", text: "ignitionsystem", isCorrect: false },
-          { id: "d", text: "automationsystems", isCorrect: true },
+          { id: "a", text: "traffic system", isCorrect: false },
+          { id: "b", text: "backup system", isCorrect: false },
+          { id: "c", text: "ignition system", isCorrect: false },
+          { id: "d", text: "automation systems", isCorrect: true },
         ],
       },
       {
@@ -1919,10 +1923,10 @@ export const units: Unit[] = [
       {
         id: 12,
         question:
-          "------ help to capture signal from the satellite to infer the locationof the device.",
+          "------ help to capture signal from the satellite to infer the location of the device.",
         options: [
           { id: "a", text: "GPS", isCorrect: true },
-          { id: "b", text: "Bothc &d", isCorrect: false },
+          { id: "b", text: "Both c & d", isCorrect: false },
           { id: "c", text: "Bluetooth", isCorrect: false },
           { id: "d", text: "Wi-Fi", isCorrect: false },
         ],
@@ -1930,9 +1934,9 @@ export const units: Unit[] = [
       {
         id: 13,
         question:
-          "helps to measure the rate of change of angular movement in all threeaxis",
+          "helps to measure the rate of change of angular movement in all three axis",
         options: [
-          { id: "a", text: "magneticsensor", isCorrect: false },
+          { id: "a", text: "magnetic sensor", isCorrect: false },
           { id: "b", text: "gyroscope", isCorrect: true },
           { id: "c", text: "borometer", isCorrect: false },
           { id: "d", text: "heartrate", isCorrect: false },
@@ -1940,92 +1944,93 @@ export const units: Unit[] = [
       },
       {
         id: 14,
-        question: "The oldest and best-known smart home automation systemis-",
+        question: "The oldest and best-known smart home automation system is-",
         options: [
           { id: "a", text: "B-10", isCorrect: false },
           { id: "b", text: "C-10", isCorrect: false },
-          { id: "c", text: "X-10", isCorrect: true },
+          { id: "c", text: "X-10 - developed in 1975", isCorrect: true },
           { id: "d", text: "A-10", isCorrect: false },
         ],
       },
       {
         id: 15,
-        question: "Smart waste dealswith-------",
+        question: "Smart waste deals with-------",
         options: [
           { id: "a", text: "Garbage collection and disposal", isCorrect: true },
-          { id: "b", text: "Reusing and reducinggarbage", isCorrect: false },
-          { id: "c", text: "Recyclingwaste", isCorrect: false },
-          { id: "d", text: "Dumping trash inlandfills", isCorrect: false },
+          { id: "b", text: "Reusing and reducing garbage", isCorrect: false },
+          { id: "c", text: "Recycling waste", isCorrect: false },
+          { id: "d", text: "Dumping trash in landfills", isCorrect: false },
         ],
       },
       {
         id: 16,
-        question: "Smart bins indicate status of binusing-------------",
+        question: "Smart bins indicate status of bin using-------------",
         options: [
-          { id: "a", text: "Levelsensors", isCorrect: true },
-          { id: "b", text: "Temperaturesensors", isCorrect: false },
-          { id: "c", text: "Garbagesensors", isCorrect: false },
-          { id: "d", text: "Gassensors", isCorrect: false },
+          { id: "a", text: "Level sensors", isCorrect: true },
+          { id: "b", text: "Temperature sensors", isCorrect: false },
+          { id: "c", text: "Garbage sensors", isCorrect: false },
+          { id: "d", text: "Gas sensors", isCorrect: false },
         ],
       },
       {
         id: 17,
         question:
-          "Domestic waste collection services are often providedby--------------",
+          "Domestic waste collection services are often provided by--------------",
         options: [
-          { id: "a", text: "Local Governmentauthorities", isCorrect: true },
+          { id: "a", text: "Local Government authorities", isCorrect: true },
           { id: "b", text: "State Government authorities", isCorrect: false },
-          { id: "c", text: "Central Governmentauthorities", isCorrect: false },
-          { id: "d", text: "HousingSociety", isCorrect: false },
+          { id: "c", text: "Central Government authorities", isCorrect: false },
+          { id: "d", text: "Housing Society", isCorrect: false },
         ],
       },
       {
         id: 18,
-        question: "Smart bins can be monitoredusing",
+        question: "Smart bins can be monitored using:",
         options: [
           {
             id: "a",
-            text: "Its own private network implemented bymunicipality",
+            text: "Its own private network implemented by municipality",
             isCorrect: true,
           },
-          { id: "b", text: "Manual inspection by aperson", isCorrect: false },
-          { id: "c", text: "TrainedDogs", isCorrect: false },
-          { id: "d", text: "Housingsociety", isCorrect: false },
+          { id: "b", text: "Manual inspection by a person", isCorrect: false },
+          { id: "c", text: "Trained Dogs", isCorrect: false },
+          { id: "d", text: "Housing society", isCorrect: false },
         ],
       },
       {
         id: 19,
         question:
-          "In Video monitoring system, camera will start recording automatically as it senseany movement in range is due to usedof.",
+          "In Video monitoring system, camera will start recording automatically as it sense any movement in range is due to used of.",
         options: [
-          { id: "a", text: "Home theatersystem", isCorrect: false },
-          { id: "b", text: "Home security and AlarmSystem.", isCorrect: true },
+          { id: "a", text: "Home theater system", isCorrect: false },
+          { id: "b", text: "Home security and Alarm System.", isCorrect: true },
           {
             id: "c",
             text: "home temperature control system",
             isCorrect: false,
           },
-          { id: "d", text: "Home entertainmentsystem", isCorrect: false },
+          { id: "d", text: "Home entertainment system", isCorrect: false },
         ],
       },
       {
         id: 20,
-        question: "Function of device domain in M2Mnetwork",
+        question:
+          "Function of device domain in M2Mnetwork (machine 2 machine).                 [{1. device domain :- Collection and transmission of sensor data 2. network domain :- acts as bridge providing connectivity between device and application domain  3. Application domain :- processing and interpreting sensor data}]",
         options: [
           {
             id: "a",
-            text: "Collection and transmission of sensordata",
+            text: "Collection and transmission of sensor data",
             isCorrect: true,
           },
-          { id: "b", text: "Interpretation of sensordata", isCorrect: false },
-          { id: "c", text: "Processing of sensordata", isCorrect: false },
-          { id: "d", text: "Analysis of sensordata", isCorrect: false },
+          { id: "b", text: "Interpretation of sensor data", isCorrect: false },
+          { id: "c", text: "Processing of sensor data", isCorrect: false },
+          { id: "d", text: "Analysis of sensor data", isCorrect: false },
         ],
       },
       {
         id: 21,
         question:
-          "Subnet in M2M is used for generating the communication link between the M2M devicesand the M2M---------------",
+          "Subnet in M2M is used for generating the communication link between the M2M devices and the M2M---------------",
         options: [
           { id: "a", text: "Gateways", isCorrect: true },
           { id: "b", text: "Devices", isCorrect: false },
@@ -2036,17 +2041,17 @@ export const units: Unit[] = [
       {
         id: 22,
         question:
-          "Ina-----------------networks, all nodes communicate with each other using someintermediate gateways .",
+          "In a------------networks, all nodes communicate with each other using some intermediate gateways .",
         options: [
-          { id: "a", text: "Fullydistributed", isCorrect: false },
-          { id: "b", text: "Client-server", isCorrect: true },
-          { id: "c", text: "Cooperative", isCorrect: false },
-          { id: "d", text: "point to pointnetwork", isCorrect: false },
+          { id: "a", text: "Fully distributed", isCorrect: false },
+          { id: "b", text: "Client-server", isCorrect: false },
+          { id: "c", text: "Cooperative", isCorrect: true },
+          { id: "d", text: "point to point network", isCorrect: false },
         ],
       },
       {
         id: 23,
-        question: "One of this is not asensor",
+        question: "One of this is not a sensor",
         options: [
           { id: "a", text: "Gyroscope", isCorrect: false },
           { id: "b", text: "Camera", isCorrect: false },
@@ -2056,10 +2061,10 @@ export const units: Unit[] = [
       },
       {
         id: 24,
-        question: ")is used for navigationpurpose:",
+        question: "is used for navigation purpose:",
         options: [
           { id: "a", text: "GPS", isCorrect: true },
-          { id: "b", text: "Lightsensor", isCorrect: false },
+          { id: "b", text: "Light sensor", isCorrect: false },
           { id: "c", text: "Barometer", isCorrect: false },
           { id: "d", text: "Accelerometer", isCorrect: false },
         ],
@@ -2067,17 +2072,17 @@ export const units: Unit[] = [
       {
         id: 25,
         question:
-          "Lights in home can be controlled by mobile app by replacing normal switchwith .",
+          "Lights in home can be controlled by mobile app by replacing normal switch with .",
         options: [
-          { id: "a", text: "SmartCar", isCorrect: false },
-          { id: "b", text: "Smartdustbin", isCorrect: false },
-          { id: "c", text: "SmartTV", isCorrect: false },
-          { id: "d", text: "SmartSwitches", isCorrect: true },
+          { id: "a", text: "Smart Car", isCorrect: false },
+          { id: "b", text: "Smart dustbin", isCorrect: false },
+          { id: "c", text: "Smart TV", isCorrect: false },
+          { id: "d", text: "Smart Switches", isCorrect: true },
         ],
       },
       {
         id: 26,
-        question: "Frequency band used by Z-WAVE protocolis:",
+        question: "Frequency band used by Z-WAVE protocol is:",
         options: [
           { id: "a", text: "60Hz", isCorrect: false },
           { id: "b", text: "2.4 GHz", isCorrect: false },
@@ -2087,21 +2092,21 @@ export const units: Unit[] = [
       },
       {
         id: 27,
-        question: "Transaction and data integration across multiple sourcesis",
+        question: "Transaction and data integration across multiple sources is",
         options: [
           { id: "a", text: "Orchestration", isCorrect: true },
-          { id: "b", text: "DataRouting", isCorrect: false },
+          { id: "b", text: "Data Routing", isCorrect: false },
           { id: "c", text: "Data Mining", isCorrect: false },
-          { id: "d", text: "Dataanalyzing", isCorrect: false },
+          { id: "d", text: "Data analyzing", isCorrect: false },
         ],
       },
       {
         id: 28,
         question:
-          "In aApplicationserver---------------allows users to access and use data even though device isnot connected.",
+          "In a Application server---------------allows users to access and use data even though device is not connected.",
         options: [
-          { id: "a", text: "Off linesupport", isCorrect: true },
-          { id: "b", text: "Unsecureddata", isCorrect: false },
+          { id: "a", text: "Offline support", isCorrect: true },
+          { id: "b", text: "Unsecured data", isCorrect: false },
           { id: "c", text: "Data routing", isCorrect: false },
           { id: "d", text: "Orchestration", isCorrect: false },
         ],
@@ -2109,18 +2114,18 @@ export const units: Unit[] = [
       {
         id: 29,
         question:
-          "Data encryption, device control, SSL, call logging is doneby-------",
+          "Data encryption, device control, SSL, call logging is donebby-------",
         options: [
           { id: "a", text: "Orchestration", isCorrect: false },
-          { id: "b", text: "Datarouting", isCorrect: false },
-          { id: "c", text: "Both a &b", isCorrect: false },
+          { id: "b", text: "Data routing", isCorrect: false },
+          { id: "c", text: "Both a & b", isCorrect: false },
           { id: "d", text: "Security", isCorrect: true },
         ],
       },
       {
         id: 30,
         question:
-          "Working in unlicensed frequency band is thelimitation of----------------cellularcommunication technology.",
+          "Working in unlicensed frequency band is the limitation of----------------cellular communication technology.    ----------------       Expaination :- LoRa (Long Range) technology operates in unlicensed frequency bands (such as 868 MHz in Europe or 915 MHz in North America). This offers the advantage of lower operational costs since no expensive spectrum licenses are required. However, it is a limitation because unlicensed bands are shared with many other devices (like Wi-Fi, Bluetooth, garage door openers, etc.), making the communication susceptible to interference and less reliable than technologies operating in a dedicated, licensed spectrum",
         options: [
           { id: "a", text: "Cellular eMTC", isCorrect: false },
           { id: "b", text: "LoRa", isCorrect: true },
@@ -2131,7 +2136,7 @@ export const units: Unit[] = [
       {
         id: 31,
         question:
-          "Wireless range for indoor applications using ZigBee protocolis-------",
+          "Wireless range for indoor applications using ZigBee protocol is-------",
         options: [
           { id: "a", text: "upto 10meters", isCorrect: true },
           { id: "b", text: "Upto 70meters", isCorrect: false },
@@ -2142,10 +2147,10 @@ export const units: Unit[] = [
       {
         id: 32,
         question:
-          "Web-based applications for controlling home appliances in smart home are also knownas .",
+          "Web-based applications for controlling home appliances in smart home are also known as .",
         options: [
           { id: "a", text: "Web games", isCorrect: false },
-          { id: "b", text: "Webgraphics", isCorrect: false },
+          { id: "b", text: "Webg raphics", isCorrect: false },
           { id: "c", text: "Web apps", isCorrect: true },
           { id: "d", text: "Web media", isCorrect: false },
         ],
@@ -2153,7 +2158,7 @@ export const units: Unit[] = [
       {
         id: 33,
         question:
-          "Identify the wire line technology which has absence of regulations on use of frequencybands.",
+          "Identify the wire line technology which has absence of regulations on use of frequency bands.",
         options: [
           { id: "a", text: "PLC", isCorrect: false },
           { id: "b", text: "Ethernet", isCorrect: true },
@@ -2163,9 +2168,10 @@ export const units: Unit[] = [
       },
       {
         id: 34,
-        question: "Identify Wire LineTechnology.",
+        question:
+          "Identify Wire Line Technology. -> DSL uses telephone (copper wire) to Tx data.",
         options: [
-          { id: "a", text: "DSL", isCorrect: true },
+          { id: "a", text: "DSL - digital subscriber line", isCorrect: true },
           { id: "b", text: "Wi-Fi", isCorrect: false },
           { id: "c", text: "ZigBee", isCorrect: false },
           { id: "d", text: "Z-Wave", isCorrect: false },
@@ -2173,7 +2179,7 @@ export const units: Unit[] = [
       },
       {
         id: 35,
-        question: "Identify the wireless cellulartechnology",
+        question: "Identify the wireless cellular technology",
         options: [
           { id: "a", text: "Bluetooth", isCorrect: false },
           { id: "b", text: "GSM", isCorrect: true },
@@ -2183,7 +2189,7 @@ export const units: Unit[] = [
       },
       {
         id: 36,
-        question: "Identify Non cellular wirelesstechnology",
+        question: "Identify Non cellular wireless technology",
         options: [
           { id: "a", text: "Wi-Fi", isCorrect: true },
           { id: "b", text: "NB-IoT", isCorrect: false },
@@ -2193,12 +2199,12 @@ export const units: Unit[] = [
       },
       {
         id: 37,
-        question: "In wired communication technology PLC standsfor---------",
+        question: "In wired communication technology PLC stands for---------",
         options: [
           { id: "a", text: "Phase Locked Control", isCorrect: false },
           { id: "b", text: "Phase Loop Communication", isCorrect: false },
-          { id: "c", text: "Pulse LineControl", isCorrect: false },
-          { id: "d", text: "Power Linecommunication", isCorrect: true },
+          { id: "c", text: "Pulse Line Control", isCorrect: false },
+          { id: "d", text: "Power Line communication", isCorrect: true },
         ],
       },
       {
@@ -2209,7 +2215,7 @@ export const units: Unit[] = [
           { id: "a", text: "Gateway", isCorrect: false },
           { id: "b", text: "Sensor", isCorrect: true },
           { id: "c", text: "Server", isCorrect: false },
-          { id: "d", text: "ApplicationServer", isCorrect: false },
+          { id: "d", text: "Application Server", isCorrect: false },
         ],
       },
       {
@@ -2217,38 +2223,38 @@ export const units: Unit[] = [
         question:
           "M2M technologies allow wired or wireless system to communicate with devices of-------------- ability.",
         options: [
-          { id: "a", text: "Same", isCorrect: false },
-          { id: "b", text: "CompletelyDifferent", isCorrect: true },
-          { id: "c", text: "Partiallydifferent", isCorrect: false },
-          { id: "d", text: "ExactlyOpposite", isCorrect: false },
+          { id: "a", text: "Same", isCorrect: true },
+          { id: "b", text: "Completely Different", isCorrect: false },
+          { id: "c", text: "Partially different", isCorrect: false },
+          { id: "d", text: "Exactly Opposite", isCorrect: false },
         ],
       },
       {
         id: 40,
         question:
-          "In M2M communication, the intelligent Sensors communicate with the communicationnetwork with the help of----------------",
+          "In M2M communication, the intelligent Sensors communicate with the communication network with the help of----------------",
         options: [
-          { id: "a", text: "M2MGateways", isCorrect: true },
-          { id: "b", text: "M2M Applicationdomain", isCorrect: false },
-          { id: "c", text: "M2Mtrigger", isCorrect: false },
-          { id: "d", text: "M2Mserver", isCorrect: false },
+          { id: "a", text: "M2M Gateways", isCorrect: true },
+          { id: "b", text: "M2M Application domain", isCorrect: false },
+          { id: "c", text: "M2M trigger", isCorrect: false },
+          { id: "d", text: "M2M server", isCorrect: false },
         ],
       },
       {
         id: 41,
         question:
-          "Green pollution control and climate change adaption comesunder----",
+          "Green pollution control and climate change adaption comes under----",
         options: [
           { id: "a", text: "Smart Infrastructure", isCorrect: false },
           { id: "b", text: "Smart Mobility", isCorrect: false },
-          { id: "c", text: "SmartEnvironment", isCorrect: true },
-          { id: "d", text: "SmartEducation", isCorrect: false },
+          { id: "c", text: "Smart Environment", isCorrect: true },
+          { id: "d", text: "Smart Education", isCorrect: false },
         ],
       },
       {
         id: 42,
         question:
-          "X-10 home automation sysytem can control switchingupto                              appliances on and off with no need for any extracables.",
+          "X-10 home automation sysytem can control switching upto _______ appliances on and off with no need for any extra cables. -----> The X-10 home automation system uses a protocol that can address 256 unique devices. This is achieved by combining 16 different house codes (A through P) with 16 different unit codes (1 through 16), which allows for (16 X 16 = 256) possible addresses for individual control.",
         options: [
           { id: "a", text: "256", isCorrect: true },
           { id: "b", text: "512", isCorrect: false },
@@ -2259,71 +2265,71 @@ export const units: Unit[] = [
       {
         id: 43,
         question:
-          "Energy efficiency, reduced emissions and smart meters are the featuresof-----",
+          "Energy efficiency, reduced emissions and smart meters are the features of-----",
         options: [
-          { id: "a", text: "SmartEducation", isCorrect: false },
-          { id: "b", text: "SmartGovernment", isCorrect: false },
-          { id: "c", text: "SmartBusiness", isCorrect: false },
+          { id: "a", text: "Smart Education", isCorrect: false },
+          { id: "b", text: "Smart Government", isCorrect: false },
+          { id: "c", text: "Smart Business", isCorrect: false },
           { id: "d", text: "Smart Utility", isCorrect: true },
         ],
       },
       {
         id: 44,
         question:
-          "Integrated ICT, Sustainability and smart economy are the featuresof------",
+          "Integrated ICT, Sustainability and smart economy are the features of------",
         options: [
           { id: "a", text: "Smart Utility", isCorrect: false },
-          { id: "b", text: "Smartinfrastructure", isCorrect: true },
-          { id: "c", text: "SmartBusiness", isCorrect: false },
-          { id: "d", text: "SmartEnvironment", isCorrect: false },
+          { id: "b", text: "Smart infrastructure", isCorrect: true },
+          { id: "c", text: "Smart Business", isCorrect: false },
+          { id: "d", text: "Smart Environment", isCorrect: false },
         ],
       },
       {
         id: 45,
         question:
-          "Efficient use of physical infrastructure to support strong and healthy economic, social,& cultural development is achievedthrough------",
+          "Efficient use of physical infrastructure to support strong and healthy economic, social, & cultural development is achieved through------",
         options: [
           {
             id: "a",
-            text: "Artificial Intelligence & Dataanalytics",
+            text: "Artificial Intelligence & Data analytics",
             isCorrect: true,
           },
-          { id: "b", text: "SmartHome", isCorrect: false },
-          { id: "c", text: "GSMmodule", isCorrect: false },
+          { id: "b", text: "Smart Home", isCorrect: false },
+          { id: "c", text: "GSM module", isCorrect: false },
           { id: "d", text: "Web controlling", isCorrect: false },
         ],
       },
       {
         id: 46,
         question:
-          "Identify the sensor used to determine the distance to an object using transmittingsignal generated by high frequency sound waves and receivedecho.",
+          "Identify the sensor used to determine the distance to an object using transmitting signal generated by high frequency sound waves and received echo.",
         options: [
           { id: "a", text: "Gyroscope", isCorrect: false },
-          { id: "b", text: "Audiosensor", isCorrect: false },
-          { id: "c", text: "Ultrasonicsensor", isCorrect: true },
-          { id: "d", text: "Magneticsensor", isCorrect: false },
+          { id: "b", text: "Audio sensor", isCorrect: false },
+          { id: "c", text: "Ultrasonic sensor", isCorrect: true },
+          { id: "d", text: "Magnetic sensor", isCorrect: false },
         ],
       },
       {
         id: 47,
         question:
-          "Health & Education, Adequate water supply, E-Governance, safety & security forsenior citizens & banks are the features or requirements of------",
+          "Health & Education, Adequate water supply, E-Governance, safety & security for senior citizens & banks are the features or requirements of------",
         options: [
-          { id: "a", text: "SmartHome", isCorrect: false },
+          { id: "a", text: "Smart Home", isCorrect: false },
           { id: "b", text: "Smart City", isCorrect: true },
-          { id: "c", text: "Smart illuminationsystem", isCorrect: false },
-          { id: "d", text: "HVACmodel", isCorrect: false },
+          { id: "c", text: "Smart illumination system", isCorrect: false },
+          { id: "d", text: "HVAC model", isCorrect: false },
         ],
       },
       {
         id: 48,
         question:
-          "Sensor owners can register & connect devices to feed data for storage & allow developersto build own application based on that data is allowedthrough-------",
+          "Sensor owners can register & connect devices to feed data for storage & allow developers to build own application based on that data is allowed through-------",
         options: [
-          { id: "a", text: "Planning andBudget", isCorrect: false },
+          { id: "a", text: "Planning and Budget", isCorrect: false },
           { id: "b", text: "GSM module", isCorrect: false },
-          { id: "c", text: "Go Greenconcept", isCorrect: false },
-          { id: "d", text: "On-Line Databaseservices", isCorrect: true },
+          { id: "c", text: "Go Green concept", isCorrect: false },
+          { id: "d", text: "On-Line Database services", isCorrect: true },
         ],
       },
       {
@@ -2339,9 +2345,9 @@ export const units: Unit[] = [
       {
         id: 50,
         question:
-          "Identify the communication technology which is not used in fitness and healthcaredevices.",
+          "Identify the communication technology which is not used in fitness and healthcare devices.",
         options: [
-          { id: "a", text: "BluetoothLow Energy", isCorrect: false },
+          { id: "a", text: "Bluetooth Low Energy", isCorrect: false },
           { id: "b", text: "NFC", isCorrect: false },
           { id: "c", text: "Z-WAVE", isCorrect: true },
           { id: "d", text: "ANT", isCorrect: false },
@@ -2350,39 +2356,51 @@ export const units: Unit[] = [
       {
         id: 51,
         question:
-          "Ina-----------------networks, all nodes or devices communicate directly with theserver.",
+          "In a-----------------networks, all nodes or devices communicate directly with the server.",
         options: [
-          { id: "a", text: "Fullydistributed", isCorrect: false },
+          {
+            id: "a",
+            text: "Fully distributed ---> all nodes are independent. no central control. eg: web3",
+            isCorrect: false,
+          },
           { id: "b", text: "Client-server", isCorrect: true },
-          { id: "c", text: "Cooperative", isCorrect: false },
-          { id: "d", text: "point to pointnetwork", isCorrect: false },
+          {
+            id: "c",
+            text: "Cooperative := shared services. banks user can  use ATMs",
+            isCorrect: false,
+          },
+          {
+            id: "d",
+            text: "point to point network --> two devices diretly connected",
+            isCorrect: false,
+          },
         ],
       },
       {
         id: 52,
         question:
-          "The combination of fixed , mobile & voluntary sensors used for data collection and fusionis donein------------",
+          "The combination of fixed , mobile & voluntary sensors used for data collection and fusion is done in------------",
         options: [
-          { id: "a", text: "Smart citymodel", isCorrect: true },
-          { id: "b", text: "Distancesensing", isCorrect: false },
-          { id: "c", text: "Webcontrolling", isCorrect: false },
-          { id: "d", text: "LEDdisplays", isCorrect: false },
+          { id: "a", text: "Smart city model", isCorrect: true },
+          { id: "b", text: "Distance sensing", isCorrect: false },
+          { id: "c", text: "Web controlling", isCorrect: false },
+          { id: "d", text: "LED displays", isCorrect: false },
         ],
       },
       {
         id: 53,
         question:
-          "Smarthealthcareincludes-------------------for data & informationcollection.",
+          "Smart healthcare includes-------------------for data & information collection.",
         options: [
-          { id: "a", text: "E health & Mhealth", isCorrect: true },
-          { id: "b", text: "E health & Ahealth", isCorrect: false },
-          { id: "c", text: "Z health & Mhealth", isCorrect: false },
-          { id: "d", text: "M health & Xhealth", isCorrect: false },
+          { id: "a", text: "E health & M health", isCorrect: true },
+          { id: "b", text: "E health & A health", isCorrect: false },
+          { id: "c", text: "Z health & M health", isCorrect: false },
+          { id: "d", text: "M health & X health", isCorrect: false },
         ],
       },
       {
         id: 54,
-        question: "is not smart light manufacturingcompany.",
+        question: "______ is not smart light manufacturing company.",
         options: [
           { id: "a", text: "Osram", isCorrect: false },
           { id: "b", text: "IKEA", isCorrect: false },
@@ -2392,10 +2410,10 @@ export const units: Unit[] = [
       },
       {
         id: 55,
-        question: "State the need of Smartcity.",
+        question: "State the need of Smart city.",
         options: [
-          { id: "a", text: "IncreasedPopulation", isCorrect: true },
-          { id: "b", text: "Financialsupport", isCorrect: false },
+          { id: "a", text: "Increased Population", isCorrect: true },
+          { id: "b", text: "Financial support", isCorrect: false },
           { id: "c", text: "Unemployment", isCorrect: false },
           { id: "d", text: "Wild life", isCorrect: false },
         ],
@@ -2403,33 +2421,33 @@ export const units: Unit[] = [
       {
         id: 56,
         question:
-          "In smart waste management, sensor based dustbin will judge the level of waste in it andsend the message directlyto-----------",
+          "In smart waste management, sensor based dustbin will judge the level of waste in it and send the message directly to-----------",
         options: [
           { id: "a", text: "central government", isCorrect: false },
           { id: "b", text: "State Government", isCorrect: false },
-          { id: "c", text: "Municipalcorporation", isCorrect: true },
+          { id: "c", text: "Municipal corporation", isCorrect: true },
           { id: "d", text: "sweeper", isCorrect: false },
         ],
       },
       {
         id: 57,
         question:
-          "If all M2M devices are connected as peers to the network and one of the node whichis connected to network acts as router then that type of network is calledas-------------------",
+          "If all M2M devices are connected as peers to the network and one of the node which is connected to network acts as router then that type of network is called as-------------------",
         options: [
-          { id: "a", text: "Client servernetwork", isCorrect: false },
-          { id: "b", text: "Point to pointnetwork", isCorrect: false },
-          { id: "c", text: "Cooperativenetwork", isCorrect: true },
-          { id: "d", text: "Fully distributednetwork", isCorrect: false },
+          { id: "a", text: "Client server network", isCorrect: false },
+          { id: "b", text: "Point to point network", isCorrect: false },
+          { id: "c", text: "Cooperative network", isCorrect: true },
+          { id: "d", text: "Fully distributed network", isCorrect: false },
         ],
       },
       {
         id: 58,
         question:
-          "Low Mobility, Time controlled, Low power consumption & monitoring, Online smalldata transmission are the features of---------------",
+          "Low Mobility, Time controlled, Low power consumption & monitoring, Online small data transmission are the features of---------------",
         options: [
-          { id: "a", text: "M2M communicationsystem", isCorrect: true },
-          { id: "b", text: "Ultrasonicsensor", isCorrect: false },
-          { id: "c", text: "GSMModule", isCorrect: false },
+          { id: "a", text: "M2M communication system", isCorrect: true },
+          { id: "b", text: "Ultrasonic sensor", isCorrect: false },
+          { id: "c", text: "GSM Module", isCorrect: false },
           { id: "d", text: "Smartbins", isCorrect: false },
         ],
       },
@@ -2438,39 +2456,39 @@ export const units: Unit[] = [
         question:
           "In smart Education Smart Board, Video conference, AI platform are the examples of-------------.",
         options: [
-          { id: "a", text: "Softwaredevelopment", isCorrect: false },
-          { id: "b", text: "Interactive displayhardware", isCorrect: true },
-          { id: "c", text: "M2MGateways", isCorrect: false },
-          { id: "d", text: "Smartsensors", isCorrect: false },
+          { id: "a", text: "Software development", isCorrect: false },
+          { id: "b", text: "Interactive display hardware", isCorrect: true },
+          { id: "c", text: "M2M Gateways", isCorrect: false },
+          { id: "d", text: "Smart sensors", isCorrect: false },
         ],
       },
       {
         id: 60,
         question:
-          "                                                          for controlling home appliances in smart home implements the flexibility of theInternet",
+          "_______ for controlling home appliances in smart home implements the flexibility of the Internet",
         options: [
-          { id: "a", text: "Web-basedapplications", isCorrect: true },
+          { id: "a", text: "Web-based applications", isCorrect: true },
           { id: "b", text: "Relays", isCorrect: false },
           { id: "c", text: "Sensors", isCorrect: false },
-          { id: "d", text: "Mechanicalswitches", isCorrect: false },
+          { id: "d", text: "Mechanical switches", isCorrect: false },
         ],
       },
       {
         id: 61,
         question:
-          "In M2M/IoT communication , devices will communicate with application server through-------.",
+          "In M2M/IoT communication , devices will communicate with application server through-------. ----->> A gateway in M2M/IoT is a physical device or a software program that serves as a crucial intermediary or bridge between local IoT devices (sensors, actuators, etc.) and external networks, specifically the internet or cloud platforms. it use various low-power, short-range communication protocols (like Zigbee, Bluetooth, Z-Wave, or Modbus) that are not IP-compatible.",
         options: [
           { id: "a", text: "Switch", isCorrect: false },
           { id: "b", text: "Hub", isCorrect: false },
           { id: "c", text: "Router", isCorrect: false },
-          { id: "d", text: "Gateways &Platform", isCorrect: true },
+          { id: "d", text: "Gateways & Platform", isCorrect: true },
         ],
       },
       {
         id: 62,
-        question: "Identify from following is not a example ofSubnet.",
+        question: "Identify from following is not a example of Subnet.",
         options: [
-          { id: "a", text: "SmartBoard", isCorrect: true },
+          { id: "a", text: "Smart Board", isCorrect: true },
           { id: "b", text: "PLC", isCorrect: false },
           { id: "c", text: "Meterbus(M-BUS)", isCorrect: false },
           { id: "d", text: "ZigBee", isCorrect: false },
@@ -2479,37 +2497,37 @@ export const units: Unit[] = [
       {
         id: 63,
         question:
-          "In M2M/IoT communication use of Gateway to communicate with platform dependson----------",
+          "In M2M/IoT communication use of Gateway to communicate with platform depends on----------",
         options: [
-          { id: "a", text: "Cost ofcommunication", isCorrect: false },
+          { id: "a", text: "Cost of communication", isCorrect: false },
           {
             id: "b",
-            text: "Range of communicationtechnology",
+            text: "Range of communication technology",
             isCorrect: true,
           },
-          { id: "c", text: "Power ofdevice", isCorrect: false },
-          { id: "d", text: "Applicationserver", isCorrect: false },
+          { id: "c", text: "Power of device", isCorrect: false },
+          { id: "d", text: "Application server", isCorrect: false },
         ],
       },
       {
         id: 64,
         question:
-          "For the connection of Arduino board with Ultrasonic sensor , Pin number 11 & 12 onArduino board are used forconnecting---------",
+          "For the connection of Arduino board with Ultrasonic sensor , Pin number 11 & 12 on Arduino board are used for connecting---------",
         options: [
           {
             id: "a",
-            text: "Echo & Trigger pin of ultrasonicsensor",
+            text: "Echo & Trigger pin of ultrasonic sensor",
             isCorrect: true,
           },
-          { id: "b", text: "VCC & GND of ultrasonicsensor", isCorrect: false },
-          { id: "c", text: "to the GSMmodule", isCorrect: false },
-          { id: "d", text: "to theobject", isCorrect: false },
+          { id: "b", text: "VCC & GND of ultrasonic sensor", isCorrect: false },
+          { id: "c", text: "to the GSM module", isCorrect: false },
+          { id: "d", text: "to the object", isCorrect: false },
         ],
       },
       {
         id: 65,
         question:
-          "Identify which is not a type of garbage container ordustbin.",
+          "Identify which is not a type of garbage container or dustbin.",
         options: [
           { id: "a", text: "trashcans", isCorrect: false },
           { id: "b", text: "dumpsters", isCorrect: false },
@@ -2519,33 +2537,33 @@ export const units: Unit[] = [
       },
       {
         id: 66,
-        question: "In intelligent traffic management GDP standsfor-----------",
+        question: "In intelligent traffic management GDP stands for-----------",
         options: [
-          { id: "a", text: "Generic DocumentaryProduct", isCorrect: false },
-          { id: "b", text: "Gross DomesticProduct", isCorrect: true },
-          { id: "c", text: "General DevelopmentProject", isCorrect: false },
+          { id: "a", text: "Generic Documentary Product", isCorrect: false },
+          { id: "b", text: "Gross Domestic Product", isCorrect: true },
+          { id: "c", text: "General Development Project", isCorrect: false },
           { id: "d", text: "Government Developed Project", isCorrect: false },
         ],
       },
       {
         id: 67,
         question:
-          "Making mobility more efficient and convenient by solving the problems associatedwith urban density is the aim of---------------",
+          "Making mobility more efficient and convenient by solving the problems associated with urban density is the aim of---------------",
         options: [
-          { id: "a", text: "M2M areanetwork", isCorrect: false },
+          { id: "a", text: "M2M area network", isCorrect: false },
           { id: "b", text: "Smartbudget", isCorrect: false },
-          { id: "c", text: "Interactivemanagement", isCorrect: false },
+          { id: "c", text: "Interactive management", isCorrect: false },
           { id: "d", text: "MaaS", isCorrect: true },
         ],
       },
       {
         id: 68,
-        question: "State the need of Smarttransportation.",
+        question: "State the need of Smart transportation.",
         options: [
-          { id: "a", text: "High Economyrate", isCorrect: false },
-          { id: "b", text: "Literacyrate", isCorrect: false },
-          { id: "c", text: "PopulationGrowth", isCorrect: true },
-          { id: "d", text: "Naturalcalamities", isCorrect: false },
+          { id: "a", text: "High Economy rate", isCorrect: false },
+          { id: "b", text: "Literacy rate", isCorrect: false },
+          { id: "c", text: "Population Growth", isCorrect: true },
+          { id: "d", text: "Natural calamities", isCorrect: false },
         ],
       },
       {
@@ -2554,64 +2572,64 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Photoelectric smoke detectors & heatdetectors",
+            text: "Photoelectric smoke detectors & heat detectors",
             isCorrect: true,
           },
           { id: "b", text: "Carbon Monoxidedetectors", isCorrect: false },
-          { id: "c", text: "Proximitysensors", isCorrect: false },
-          { id: "d", text: "Ultrasonicsensors", isCorrect: false },
+          { id: "c", text: "Proximity sensors", isCorrect: false },
+          { id: "d", text: "Ultrasonic sensors", isCorrect: false },
         ],
       },
       {
         id: 70,
         question:
-          "For smart safety & security Indoor laundry room shouldhave-------",
+          "For smart safety & security Indoor laundry room should have-------",
         options: [
-          { id: "a", text: "Poisoning gasdetector", isCorrect: false },
-          { id: "b", text: "smokedetector", isCorrect: false },
-          { id: "c", text: "Ultrasonicsensor", isCorrect: false },
-          { id: "d", text: "flood sensor & heatdetector", isCorrect: true },
+          { id: "a", text: "Poisoning gas detector", isCorrect: false },
+          { id: "b", text: "smoke detector", isCorrect: false },
+          { id: "c", text: "Ultrasonic sensor", isCorrect: false },
+          { id: "d", text: "flood sensor & heat detector", isCorrect: true },
         ],
       },
       {
         id: 71,
-        question: "One of this is not a networkingdevice:",
+        question: "One of this is not a networking device:",
         options: [
           { id: "a", text: "Router", isCorrect: false },
           { id: "b", text: "Switch", isCorrect: false },
           { id: "c", text: "Bridge", isCorrect: false },
-          { id: "d", text: "TrafficAnalyzer", isCorrect: true },
+          { id: "d", text: "Traffic Analyzer", isCorrect: true },
         ],
       },
       {
         id: 72,
-        question: "Limitation of Wireless sensorNetwork(WSN)",
+        question: "Limitation of Wireless sensor Network(WSN)",
         options: [
-          { id: "a", text: "RestrictedBandwidth", isCorrect: true },
+          { id: "a", text: "Restricted Bandwidth", isCorrect: true },
           { id: "b", text: "Infinite storage capacity", isCorrect: false },
-          { id: "c", text: "High processingspeed", isCorrect: false },
+          { id: "c", text: "High processing speed", isCorrect: false },
           { id: "d", text: "Large range", isCorrect: false },
         ],
       },
       {
         id: 73,
         question:
-          "The vital component often considered in discourse around smart citiesis---",
+          "The vital component often considered in discourse around smart cities is---",
         options: [
-          { id: "a", text: "The role of theaccountant", isCorrect: false },
-          { id: "b", text: "The role of centralGovernment", isCorrect: false },
-          { id: "c", text: "The role of localGovernment", isCorrect: false },
-          { id: "d", text: "The role ofTechnology", isCorrect: true },
+          { id: "a", text: "The role of the accountant", isCorrect: false },
+          { id: "b", text: "The role of central Government", isCorrect: false },
+          { id: "c", text: "The role of local Government", isCorrect: false },
+          { id: "d", text: "The role of Technology", isCorrect: true },
         ],
       },
       {
         id: 74,
-        question: "Advantage of wireless technology over wired technologyis:",
+        question: "Advantage of wireless technology over wired technology is:",
         options: [
-          { id: "a", text: "HighInterference", isCorrect: false },
-          { id: "b", text: "Signalattenuation", isCorrect: false },
-          { id: "c", text: "Less expensive todeploy", isCorrect: true },
-          { id: "d", text: "lessreliable", isCorrect: false },
+          { id: "a", text: "High Interference", isCorrect: false },
+          { id: "b", text: "Signal attenuation", isCorrect: false },
+          { id: "c", text: "Less expensive to deploy", isCorrect: true },
+          { id: "d", text: "less reliable", isCorrect: false },
         ],
       },
       {
@@ -2619,129 +2637,134 @@ export const units: Unit[] = [
         question:
           "Disadvantage of Wired communication over wireless communicationis:",
         options: [
-          { id: "a", text: "Less prone tointerference", isCorrect: false },
-          { id: "b", text: "Morereliable", isCorrect: false },
-          { id: "c", text: "Lowcost", isCorrect: false },
+          { id: "a", text: "Less prone to interference", isCorrect: false },
+          { id: "b", text: "More reliable", isCorrect: false },
+          { id: "c", text: "Low cost", isCorrect: false },
           { id: "d", text: "Expensive to deploy", isCorrect: true },
         ],
       },
       {
         id: 76,
         question:
-          "Type of communication technology used for any application not dependsupon:",
+          "Type of communication technology used for any application not depends upon:",
         options: [
           { id: "a", text: "light intensity", isCorrect: true },
-          { id: "b", text: "Coveragedistance", isCorrect: false },
+          { id: "b", text: "Coverage distance", isCorrect: false },
           { id: "c", text: "Power", isCorrect: false },
-          { id: "d", text: "Quality ofService", isCorrect: false },
+          { id: "d", text: "Quality of Service", isCorrect: false },
         ],
       },
       {
         id: 77,
-        question: "To fix orientation ofdevicedisplay--------------is used.",
+        question:
+          "To fix orientation of device display--------------is used. --->   Accelerometer: This sensor detects the force of gravity.Magnetometer: The magnetic sensor acts as a compass, detecting the Earth's magnetic field. Gyroscope: This sensor measures the rate of angular rotation",
         options: [
-          { id: "a", text: "proximitysensor", isCorrect: false },
-          { id: "b", text: "magneticsensor", isCorrect: true },
-          { id: "c", text: "ultrasonicsensor", isCorrect: false },
+          { id: "a", text: "proximity sensor", isCorrect: false },
+          { id: "b", text: "magnetic sensor", isCorrect: true },
+          { id: "c", text: "ultrasonic sensor", isCorrect: false },
           { id: "d", text: "Barometer", isCorrect: false },
         ],
       },
       {
         id: 78,
-        question: "Advantage of smart waste managementis:",
+        question: "Advantage of smart waste management is:",
         options: [
-          { id: "a", text: "Decreased noise & airpollution", isCorrect: true },
-          { id: "b", text: "More fuelconsumption", isCorrect: false },
-          { id: "c", text: "More traffic onroads", isCorrect: false },
-          { id: "d", text: "Increased level ofCO2", isCorrect: false },
+          { id: "a", text: "Decreased noise & air pollution", isCorrect: true },
+          { id: "b", text: "More fuel consumption", isCorrect: false },
+          { id: "c", text: "More traffic on roads", isCorrect: false },
+          { id: "d", text: "Increased level of CO2", isCorrect: false },
         ],
       },
       {
         id: 79,
-        question: "One of the statements is not true for smarteducation.",
+        question: "One of the statements is not true for smart education.",
         options: [
-          { id: "a", text: "Easy access to onlineresources", isCorrect: false },
-          { id: "b", text: "Increasedproductivity", isCorrect: false },
           {
-            id: "c",
-            text: "Enhanced & interactive learningexperience",
+            id: "a",
+            text: "Easy access to online resources",
             isCorrect: false,
           },
-          { id: "d", text: "Increased trafficflow", isCorrect: true },
+          { id: "b", text: "Increased productivity", isCorrect: false },
+          {
+            id: "c",
+            text: "Enhanced & interactive learning experience",
+            isCorrect: false,
+          },
+          { id: "d", text: "Increased traffic flow", isCorrect: true },
         ],
       },
       {
         id: 80,
         question:
-          "                                                                                      provides thermal comfort and acceptable air quality insidehome.",
+          "_______ provides thermal comfort and acceptable air quality inside home.",
         options: [
           {
             id: "a",
             text: "Heating, ventilation, and air conditioning(HVAC)",
             isCorrect: true,
           },
-          { id: "b", text: "Video monitoringsystem", isCorrect: false },
-          { id: "c", text: "Smart waste managementsystem.", isCorrect: false },
-          { id: "d", text: "Smart lightingsystem", isCorrect: false },
+          { id: "b", text: "Video monitoring system", isCorrect: false },
+          { id: "c", text: "Smart waste management system.", isCorrect: false },
+          { id: "d", text: "Smart lighting system", isCorrect: false },
         ],
       },
       {
         id: 81,
-        question: "M2M network architecture notincludes:",
+        question: "M2M network architecture not includes:",
         options: [
-          { id: "a", text: "M2M  areadomain", isCorrect: false },
-          { id: "b", text: "applicationdomain", isCorrect: false },
+          { id: "a", text: "M2M  area domain", isCorrect: false },
+          { id: "b", text: "application domain", isCorrect: false },
           { id: "c", text: "E-Governance", isCorrect: true },
-          { id: "d", text: "Networkdomain", isCorrect: false },
+          { id: "d", text: "Network domain", isCorrect: false },
         ],
       },
       {
         id: 82,
-        question: "Smart city does notinclude:",
+        question: "Smart city does not include:",
         options: [
-          { id: "a", text: "SmartTransportation", isCorrect: false },
-          { id: "b", text: "Smarteducation", isCorrect: false },
-          { id: "c", text: "SmartBehavior", isCorrect: true },
-          { id: "d", text: "Smart WasteManagement", isCorrect: false },
+          { id: "a", text: "Smart Transportation", isCorrect: false },
+          { id: "b", text: "Smart education", isCorrect: false },
+          { id: "c", text: "Smart Behavior", isCorrect: true },
+          { id: "d", text: "Smart Waste Management", isCorrect: false },
         ],
       },
       {
         id: 83,
         question:
-          "Smarthealthcareapplies--------------to analyze & manage collected health datafor accurate treatment.",
+          "Smart healthcare applies--------------to analyze & manage collected health data for accurate treatment.",
         options: [
-          { id: "a", text: "IntelligentTransportation", isCorrect: false },
+          { id: "a", text: "Intelligent Transportation", isCorrect: false },
           {
             id: "b",
             text: "Artificial Intelligence & automation",
             isCorrect: true,
           },
           { id: "c", text: "Crypto currency", isCorrect: false },
-          { id: "d", text: "Cochlearimplants", isCorrect: false },
+          { id: "d", text: "Cochlear implants", isCorrect: false },
         ],
       },
       {
         id: 84,
-        question: "The key components of Smart Transportationare:",
+        question: "The key components of Smart Transportation are:",
         options: [
           {
             id: "a",
-            text: "Radiologist, Physician &Researcher",
+            text: "Radiologist, Physician & Researcher",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "Smart infrastructure, Data integration & smartservices",
+            text: "Smart infrastructure, Data integration & smart services",
             isCorrect: true,
           },
           {
             id: "c",
-            text: "Ultrasonic sensor, Smart bins & municipalauthorities",
+            text: "Ultrasonic sensor, Smart bins & municipal authorities",
             isCorrect: false,
           },
           {
             id: "d",
-            text: "AI platform, Video conference & Interactivedisplay",
+            text: "AI platform, Video conference & Interactive display",
             isCorrect: false,
           },
         ],
@@ -2749,143 +2772,163 @@ export const units: Unit[] = [
       {
         id: 85,
         question:
-          "Pollution reduction, disposal of unused & recycling of useful materials & creationof green energy is doneby------",
+          "Pollution reduction, disposal of unused & recycling of useful materials & creation of green energy is done by------",
         options: [
-          { id: "a", text: "HVACmanagement", isCorrect: false },
-          { id: "b", text: "Smarthealthcare", isCorrect: false },
-          { id: "c", text: "SmartHome", isCorrect: false },
-          { id: "d", text: "Smart wastemanagement", isCorrect: true },
+          { id: "a", text: "HVAC management", isCorrect: false },
+          { id: "b", text: "Smart healthcare", isCorrect: false },
+          { id: "c", text: "Smart Home", isCorrect: false },
+          { id: "d", text: "Smart waste management", isCorrect: true },
         ],
       },
       {
         id: 86,
         question:
-          "Extremely short range is thelimitationof-------------communicationtechnology.",
+          "Extremely short range is the limitation of-------------communication technology.",
         options: [
-          { id: "a", text: "NFC", isCorrect: true },
-          { id: "b", text: "LoRa", isCorrect: false },
-          { id: "c", text: "Wi-SUN", isCorrect: false },
-          { id: "d", text: "SIGFOX", isCorrect: false },
+          {
+            id: "a",
+            text: "NFC - Near field communication:: operate at 4cm (1.6inches) or less",
+            isCorrect: true,
+          },
+          {
+            id: "b",
+            text: "LoRa : 2 to 5km in urban && 15km in rural",
+            isCorrect: false,
+          },
+          {
+            id: "c",
+            text: "Wi-SUN - wireless smart utilities network:: several KM",
+            isCorrect: false,
+          },
+          {
+            id: "d",
+            text: "SIGFOX:: 10 to 50km in rural and 3 to 10km in urban ",
+            isCorrect: false,
+          },
         ],
       },
       {
         id: 87,
         question:
-          '"Hey Google, turn on all lights.". This voice commandisfor                                 used in smart home.',
+          '"Hey Google, turn on all lights.". This voice command is for _____ used in smart home.',
         options: [
           { id: "a", text: "Camera", isCorrect: false },
           { id: "b", text: "Speaker", isCorrect: false },
           { id: "c", text: "Microphone", isCorrect: true },
-          { id: "d", text: "Picturetube.", isCorrect: false },
+          { id: "d", text: "Picture tube.", isCorrect: false },
         ],
       },
       {
         id: 88,
         question:
-          "Medium range communication up to 10 Km is achievedthrough------",
+          "Medium range communication up to 10 Km is achieved through------",
         options: [
           { id: "a", text: "WPAN", isCorrect: false },
-          { id: "b", text: "WNAN", isCorrect: true },
+          {
+            id: "b",
+            text: "WNAN (Wireless Neighborhood Area Network)",
+            isCorrect: true,
+          },
           { id: "c", text: "NFC", isCorrect: false },
           { id: "d", text: "RFID", isCorrect: false },
         ],
       },
       {
         id: 89,
-        question: "One of following is asensor:",
+        question: "One of following is a sensor:",
         options: [
-          { id: "a", text: "Meterbus", isCorrect: false },
+          { id: "a", text: "Meter bus", isCorrect: false },
           { id: "b", text: "ZigBee", isCorrect: false },
-          { id: "c", text: "GSMmodule", isCorrect: false },
+          { id: "c", text: "GSM module", isCorrect: false },
           { id: "d", text: "Camera", isCorrect: true },
         ],
       },
       {
         id: 90,
         question:
-          "One of the following smart home devices is not avilable inmarket",
+          "One of the following smart home devices is not avilable in market",
         options: [
           { id: "a", text: "video doorbell", isCorrect: false },
           { id: "b", text: "smart doorlocks", isCorrect: false },
           { id: "c", text: "smart burger", isCorrect: true },
-          { id: "d", text: "SmartTV", isCorrect: false },
+          { id: "d", text: "Smart TV", isCorrect: false },
         ],
       },
       {
         id: 91,
         question:
-          "GDPincreaseswith------------------consumption of vehicular fuel & oilimports.",
+          "GDP increases with------------------consumption of vehicular fuel & oil imports.",
         options: [
-          { id: "a", text: "increasein", isCorrect: false },
-          { id: "b", text: "decreasein", isCorrect: true },
-          { id: "c", text: "more investmentsin", isCorrect: false },
+          { id: "a", text: "increase in", isCorrect: false },
+          { id: "b", text: "decrease in", isCorrect: true },
+          { id: "c", text: "more investments in", isCorrect: false },
           { id: "d", text: "interactive", isCorrect: false },
         ],
       },
       {
         id: 92,
-        question: "One of these statements is not true for smartcity.",
+        question: "One of these statements is not true for smart city.",
         options: [
-          { id: "a", text: "Sustainableenvironment", isCorrect: false },
+          { id: "a", text: "Sustainable environment", isCorrect: false },
           {
             id: "b",
-            text: "Robust IT connectivity &digitization",
+            text: "Robust IT connectivity &d igitization",
             isCorrect: false,
           },
-          { id: "c", text: "safety & security ofcitizens", isCorrect: false },
-          { id: "d", text: "vehicle exhaustemissions", isCorrect: true },
+          { id: "c", text: "safety & security of citizens", isCorrect: false },
+          { id: "d", text: "vehicle exhaust emissions", isCorrect: true },
         ],
       },
       {
         id: 93,
         question:
-          ")is a software framework that provides facilities to createweb applications & server environment to run them.",
+          "____ is a software framework that provides facilities to create web applications & server environment to run them.",
         options: [
-          { id: "a", text: "ApplicationServer", isCorrect: true },
+          { id: "a", text: "Application Server", isCorrect: true },
           { id: "b", text: "Sensor n/w", isCorrect: false },
-          { id: "c", text: "Accessprotocol", isCorrect: false },
+          { id: "c", text: "Access protocol", isCorrect: false },
           { id: "d", text: "Gateway", isCorrect: false },
         ],
       },
       {
         id: 94,
         question:
-          "Efficient urban mobility along with public transport and board highways are thefeatures of:",
+          "Efficient urban mobility along with public transport and board highways are the features of:",
         options: [
           { id: "a", text: "Smart home", isCorrect: false },
-          { id: "b", text: "Smartmetering", isCorrect: false },
-          { id: "c", text: "Smarttransportation", isCorrect: true },
+          { id: "b", text: "Smart metering", isCorrect: false },
+          { id: "c", text: "Smart transportation", isCorrect: true },
           { id: "d", text: "Smart security", isCorrect: false },
         ],
       },
       {
         id: 95,
         question:
-          "Inan                                     system heat can be removed through radiation andconduction.",
+          "In an  _______ system heat can be removed through radiation and conduction.",
         options: [
           { id: "a", text: "room heating", isCorrect: false },
-          { id: "b", text: "airconditioning", isCorrect: true },
+          { id: "b", text: "air conditioning", isCorrect: true },
           { id: "c", text: "dish cleaning", isCorrect: false },
           { id: "d", text: "cloths washing", isCorrect: false },
         ],
       },
       {
         id: 96,
-        question: "Pressure of the device peripheral is measuredusing:",
+        question: "Pressure of the device peripheral is measured using:",
         options: [
           { id: "a", text: "Gyroscope", isCorrect: false },
           { id: "b", text: "Barometer", isCorrect: true },
-          { id: "c", text: "Magneticsensor", isCorrect: false },
+          { id: "c", text: "Magnetic sensor", isCorrect: false },
           { id: "d", text: "Accelerometer", isCorrect: false },
         ],
       },
       {
         id: 97,
         question:
-          "Brightness and contrast of the display of the device is adjustedusing:",
+          "Brightness and contrast of the display of the device is adjusted using:",
         options: [
-          { id: "a", text: "Lightsensor", isCorrect: true },
-          { id: "b", text: "Proximitysensor", isCorrect: false },
+          { id: "a", text: "Light sensor", isCorrect: true },
+          { id: "b", text: "Proximity sensor", isCorrect: false },
           { id: "c", text: "Gyroscope", isCorrect: false },
           { id: "d", text: "GPS", isCorrect: false },
         ],
@@ -2893,18 +2936,18 @@ export const units: Unit[] = [
       {
         id: 98,
         question:
-          "The presence of nearby objects without any physical contact is detectedusing:",
+          "The presence of nearby objects without any physical contact is detected using:",
         options: [
-          { id: "a", text: "Audiosensor", isCorrect: false },
+          { id: "a", text: "Audio sensor", isCorrect: false },
           { id: "b", text: "Position sensor", isCorrect: false },
-          { id: "c", text: "Proximitysensor", isCorrect: true },
+          { id: "c", text: "Proximity sensor", isCorrect: true },
           { id: "d", text: "Motion sensor", isCorrect: false },
         ],
       },
       {
         id: 99,
         question:
-          "High data security is theadvantageof---------------communicationtechnology.",
+          "High data security is the advantage of---------------communication technology.",
         options: [
           { id: "a", text: "DSL", isCorrect: false },
           { id: "b", text: "Ethernet", isCorrect: true },
@@ -2914,7 +2957,7 @@ export const units: Unit[] = [
       },
       {
         id: 100,
-        question: "Name wireless device used to control X-10system",
+        question: "Name wireless device used to control X-10 system",
         options: [
           { id: "a", text: "Air condinionar", isCorrect: false },
           { id: "b", text: "Wireless router", isCorrect: true },
