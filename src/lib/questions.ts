@@ -73,33 +73,33 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "General Purpose Input OutputPropeller",
+            text: "General Purpose Input Output Propeller",
             isCorrect: false,
           },
           {
             id: "b",
             text: "General Purpose Input Output pins.",
-            isCorrect: true,
+            isCorrect: false,
           },
           {
             id: "c",
             text: "General Purpose Interested Old People",
             isCorrect: false,
           },
-          { id: "d", text: "General Purpose Input Output ", isCorrect: false },
+          { id: "d", text: "General Purpose Input Output ", isCorrect: true },
         ],
       },
       {
         id: 5,
         question: "The IDE stands for:",
         options: [
-          { id: "a", text: "In DeepEnvironment", isCorrect: false },
+          { id: "a", text: "In Deep Environment", isCorrect: false },
           {
             id: "b",
             text: "Integrated Development Environment",
             isCorrect: true,
           },
-          { id: "c", text: "Internal DeepEscape", isCorrect: false },
+          { id: "c", text: "Internal Deep Escape", isCorrect: false },
           { id: "d", text: "IDE", isCorrect: false },
         ],
       },
@@ -107,20 +107,20 @@ export const units: Unit[] = [
         id: 6,
         question: "A program written with the IDE for Arduino is called",
         options: [
-          { id: "a", text: "IDEsource", isCorrect: false },
+          { id: "a", text: "IDE source", isCorrect: false },
           { id: "b", text: "Sketch", isCorrect: true },
           { id: "c", text: "Cryptography", isCorrect: false },
-          { id: "d", text: "Sourcecode", isCorrect: false },
+          { id: "d", text: "Source code", isCorrect: false },
         ],
       },
       {
         id: 7,
         question: "Arduino IDE consists of 2 functions. What are they?",
         options: [
-          { id: "a", text: "Build() andloop()", isCorrect: false },
+          { id: "a", text: "Build() and loop()", isCorrect: false },
           { id: "b", text: "Setup() and build().", isCorrect: false },
           { id: "c", text: "Setup() and loop()", isCorrect: true },
-          { id: "d", text: "Loop() and build and setup()", isCorrect: false },
+          { id: "d", text: "Loop() and build() and setup()", isCorrect: false },
         ],
       },
       {
@@ -224,8 +224,8 @@ export const units: Unit[] = [
         options: [
           { id: "a", text: "Fixed", isCorrect: false },
           { id: "b", text: "Variable", isCorrect: true },
-          { id: "c", text: "Both A andB", isCorrect: false },
-          { id: "d", text: "None of theabove", isCorrect: false },
+          { id: "c", text: "Both A and B", isCorrect: false },
+          { id: "d", text: "None of the above", isCorrect: false },
         ],
       },
       {
@@ -242,12 +242,12 @@ export const units: Unit[] = [
       {
         id: 17,
         question:
-          "In RISC Processors configuration status of control unitis             ",
+          "In RISC Processors configuration status of control unit is :",
         options: [
           { id: "a", text: "Hardwired", isCorrect: true },
-          { id: "b", text: "Microprogrammed", isCorrect: false },
-          { id: "c", text: "Both A andB", isCorrect: false },
-          { id: "d", text: "None of theabove", isCorrect: false },
+          { id: "b", text: "Micro programmed", isCorrect: false },
+          { id: "c", text: "Both A and B", isCorrect: false },
+          { id: "d", text: "None of the above", isCorrect: false },
         ],
       },
       {
@@ -268,7 +268,7 @@ export const units: Unit[] = [
           { id: "a", text: "Production", isCorrect: false },
           { id: "b", text: "Pico-Power", isCorrect: true },
           { id: "c", text: "Peripheral", isCorrect: false },
-          { id: "d", text: "Programmable onchip", isCorrect: false },
+          { id: "d", text: "Programmable on chip", isCorrect: false },
         ],
       },
       {
@@ -302,9 +302,9 @@ export const units: Unit[] = [
             text: "Low cost and low power consumption",
             isCorrect: true,
           },
-          { id: "b", text: "Higher degree ofmulti-tasking", isCorrect: false },
-          { id: "c", text: "Lower error orglitches", isCorrect: false },
-          { id: "d", text: "Efficient memorymanagement", isCorrect: false },
+          { id: "b", text: "Higher degree of multi-tasking", isCorrect: false },
+          { id: "c", text: "Lower error or glitches", isCorrect: false },
+          { id: "d", text: "Efficient memory management", isCorrect: false },
         ],
       },
       {
@@ -312,7 +312,11 @@ export const units: Unit[] = [
         question:
           "In ARM processor when Interrupt occurs ARM processor goes into following mode:",
         options: [
-          { id: "a", text: "FIQ mode", isCorrect: true },
+          {
+            id: "a",
+            text: "FIQ mode :: It is a special CPU mode used to handle high-priority, time-critical interrupts with minimal latency.",
+            isCorrect: true,
+          },
           { id: "b", text: "Abort mode", isCorrect: false },
           { id: "c", text: "Supervisor mode", isCorrect: false },
           { id: "d", text: "Undefined mode", isCorrect: false },
@@ -343,7 +347,7 @@ export const units: Unit[] = [
       {
         id: 25,
         question:
-          "Evaluate the following statements 1. R13 is traditionally used as the stack pointer and stores the head of the stack in thecurrent processormode 2. R14 is the link register where the core puts the return address on executing asubroutine 3. R15 is the program counter and contains the address of the next instruction to befetched",
+          "Evaluate the following statements 1. R13 is traditionally used as the stack pointer and stores the head of the stack in the current process or mode 2. R14 is the link register where the core puts the return address on executing a subroutine 3. R15 is the program counter and contains the address of the next instruction to be fetched",
         options: [
           { id: "a", text: "All the options are true", isCorrect: true },
           { id: "b", text: "1 and 2 are true", isCorrect: false },
@@ -359,7 +363,7 @@ export const units: Unit[] = [
           { id: "a", text: "Throughput", isCorrect: true },
           { id: "b", text: "Latency", isCorrect: false },
           { id: "c", text: "Execution", isCorrect: false },
-          { id: "d", text: "None of theabove", isCorrect: false },
+          { id: "d", text: "None of the above", isCorrect: false },
         ],
       },
       {
