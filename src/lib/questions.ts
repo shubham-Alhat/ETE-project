@@ -465,7 +465,7 @@ export const units: Unit[] = [
       },
       {
         id: 32,
-        question: "In Li-ionbatteries, the ________ is/are lithium ion based",
+        question: "In Li-ion batteries, the ________ is/are lithium ion based",
         options: [
           { id: "a", text: "Positive electrode", isCorrect: true },
           { id: "b", text: "Negative electrode", isCorrect: false },
@@ -546,7 +546,8 @@ export const units: Unit[] = [
       },
       {
         id: 37,
-        question: "In OLED at least one of the electrode is",
+        question:
+          "In OLED at least one of the electrode is --->    For light generated within the organic layers to exit the device and be seen, at least one of the anode or cathode must be made of a transparent or semi-transparent material. The most commonly used transparent electrode material is Indium Tin Oxide (ITO).",
         options: [
           { id: "a", text: "Reactive", isCorrect: false },
           { id: "b", text: "Transparent", isCorrect: true },
@@ -588,7 +589,11 @@ export const units: Unit[] = [
         id: 40,
         question: "Memristor is defined by relation                   ",
         options: [
-          { id: "a", text: "dⱷ=m*dq", isCorrect: true },
+          {
+            id: "a",
+            text: "dⱷ=m*dq (m=memristance, q=electric charge)",
+            isCorrect: true,
+          },
           { id: "b", text: "dp=c*dv", isCorrect: false },
           { id: "c", text: "dⱷ=l*di", isCorrect: false },
           { id: "d", text: "dv=r*di", isCorrect: false },
@@ -651,7 +656,11 @@ export const units: Unit[] = [
         question: "_______ is considered as a subset of memristor",
         options: [
           { id: "a", text: "ROM", isCorrect: false },
-          { id: "b", text: "ReRAM / RRAM", isCorrect: true },
+          {
+            id: "b",
+            text: "ReRAM / RRAM (ReRAM (Resistive Random-Access Memory))",
+            isCorrect: true,
+          },
           { id: "c", text: "Static RAM", isCorrect: false },
           { id: "d", text: "DRAM", isCorrect: false },
         ],
@@ -685,7 +694,7 @@ export const units: Unit[] = [
           {
             id: "a",
             text: "Evaporating gases in vacuum chamber",
-            isCorrect: true,
+            isCorrect: false,
           },
           {
             id: "b",
@@ -694,8 +703,8 @@ export const units: Unit[] = [
           },
           {
             id: "c",
-            text: "Evaporating solid in vacuum chamber",
-            isCorrect: false,
+            text: "Evaporating solid in vacuum chamber (vacuum thermal evaporation (VTE),)",
+            isCorrect: true,
           },
           { id: "d", text: "Anodization", isCorrect: false },
         ],
@@ -714,7 +723,7 @@ export const units: Unit[] = [
       {
         id: 50,
         question:
-          "In the cover lay of FPC, to reduce conductor damage from frequent bending the thickness of the cover lay should be                           ",
+          "In the cover lay of FPC, to reduce conductor damage from frequent bending the thickness of the cover lay should be _______",
         options: [
           {
             id: "a",
@@ -723,7 +732,7 @@ export const units: Unit[] = [
           },
           {
             id: "b",
-            text: "More than the thickness of the dielectriclayer",
+            text: "More than the thickness of the dielectric layer",
             isCorrect: false,
           },
           {
@@ -756,8 +765,8 @@ export const units: Unit[] = [
         id: 52,
         question: "SMT is unsuitable for-----------",
         options: [
-          { id: "a", text: "SmallCapacitors", isCorrect: false },
-          { id: "b", text: "SmallTransistors", isCorrect: false },
+          { id: "a", text: "Small Capacitors", isCorrect: false },
+          { id: "b", text: "Small Transistors", isCorrect: false },
           { id: "c", text: "Transformers", isCorrect: true },
           { id: "d", text: "Resistors", isCorrect: false },
         ],
@@ -768,12 +777,12 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Graphite anode & GraphiteCathode",
+            text: "Graphite anode & Graphite Cathode",
             isCorrect: false,
           },
           {
             id: "b",
-            text: "Non metallic anode and Licathode",
+            text: "Non metallic anode and Li cathode",
             isCorrect: false,
           },
           {
@@ -783,7 +792,7 @@ export const units: Unit[] = [
           },
           {
             id: "d",
-            text: "Nuclear anode and Nuclearcathode",
+            text: "Nuclear anode and Nuclear cathode",
             isCorrect: false,
           },
         ],
@@ -1417,7 +1426,7 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Weather Forecasting andmanagement",
+            text: "Weather Forecasting and management",
             isCorrect: false,
           },
           { id: "b", text: "Adequate crop water management", isCorrect: true },
@@ -1553,10 +1562,10 @@ export const units: Unit[] = [
         id: 40,
         question: "-----------is the author of The Fourth Industrial Evolution",
         options: [
-          { id: "a", text: "Professor ClaudSchwaz", isCorrect: false },
-          { id: "b", text: "Professor KlausSchwab", isCorrect: true },
-          { id: "c", text: "Professor KlausSchwaz", isCorrect: false },
-          { id: "d", text: "Professor KloffSchwab", isCorrect: false },
+          { id: "a", text: "Professor Claud Schwaz", isCorrect: false },
+          { id: "b", text: "Professor Klaus Schwab", isCorrect: true },
+          { id: "c", text: "Professor Klaus Schwaz", isCorrect: false },
+          { id: "d", text: "Professor Kloff Schwab", isCorrect: false },
         ],
       },
       {
@@ -1575,14 +1584,14 @@ export const units: Unit[] = [
         options: [
           { id: "a", text: "Full perception", isCorrect: false },
           { id: "b", text: "reliable transmission", isCorrect: false },
-          { id: "c", text: "intelligentprocessing", isCorrect: false },
+          { id: "c", text: "intelligent processing", isCorrect: false },
           { id: "d", text: "All of Above", isCorrect: true },
         ],
       },
       {
         id: 43,
         question:
-          "-------------------is the direct contact between two smart objects when they shareinformation instantaneously without intermediaries",
+          "-------------------is the direct contact between two smart objects when they share information instantaneously without intermediaries",
         options: [
           { id: "a", text: "Device to Device", isCorrect: true },
           { id: "b", text: "Device to Gateway", isCorrect: false },
@@ -1596,7 +1605,7 @@ export const units: Unit[] = [
         options: [
           {
             id: "a",
-            text: "Interface between cloud and sensornetwork",
+            text: "Interface between cloud and sensor network",
             isCorrect: true,
           },
           { id: "b", text: "Data Management", isCorrect: false },
@@ -1619,9 +1628,9 @@ export const units: Unit[] = [
         id: 46,
         question: "On Board Diagnostics OBD gives alerts like:",
         options: [
-          { id: "a", text: "OpenDoors", isCorrect: false },
-          { id: "b", text: "LightOn", isCorrect: false },
-          { id: "c", text: "Handbrake", isCorrect: false },
+          { id: "a", text: "Open Doors", isCorrect: false },
+          { id: "b", text: "Light On", isCorrect: false },
+          { id: "c", text: "Hand brake", isCorrect: false },
           { id: "d", text: "All of Above", isCorrect: true },
         ],
       },
@@ -1631,11 +1640,11 @@ export const units: Unit[] = [
           "Which sensors are easy to interface with a microcontroller using Serial Peripheral Interface (SPI)",
         options: [
           { id: "a", text: "Digital", isCorrect: true },
-          { id: "b", text: "Analogue", isCorrect: false },
+          { id: "b", text: "Analog", isCorrect: false },
           { id: "c", text: "Both of the above", isCorrect: false },
           {
             id: "d",
-            text: "Any sensors with communication capabilityonly",
+            text: "Any sensors with communication capability only",
             isCorrect: false,
           },
         ],
@@ -1704,7 +1713,7 @@ export const units: Unit[] = [
         question:
           "Transreceivers transmits ______ data and receive _______ commands.",
         options: [
-          { id: "a", text: "sensor,actuator", isCorrect: true },
+          { id: "a", text: "sensor, actuator", isCorrect: true },
           { id: "b", text: "things,sensor", isCorrect: false },
           { id: "c", text: "devices,sensors", isCorrect: false },
           { id: "d", text: "sensors,devices", isCorrect: false },
@@ -1750,7 +1759,7 @@ export const units: Unit[] = [
           },
           {
             id: "b",
-            text: "Enables local, short-range communication between IoTdevices",
+            text: "Enables local, short-range communication between IoT devices",
             isCorrect: false,
           },
           { id: "c", text: "Both the above", isCorrect: true },
